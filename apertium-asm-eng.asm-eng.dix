@@ -1,0 +1,1132 @@
+<!--
+	developed by Anusuya Phukan
+	(Source Forge account: anu1328)
+	St. Anthony's College, Shillong, 
+	India
+-->
+
+<dictionary>
+	<alphabet/>
+	
+	<sdefs>
+		<sdef n="n"/> 			<!-- noun -->
+			<sdef n="sg"/>		<!-- singular -->
+			<sdef n="pl"/>		<!-- plural -->
+			<sdef n="ma"/>		<!-- male -->
+			<sdef n="fe"/>		<!-- female -->
+			<sdef n="sub"/>		<!-- subject -->
+			<sdef n="obj"/>		<!-- object -->
+		<sdef n="prn"/> 			<!-- proper nouns -->
+		<sdef n="en"/> 			<!-- enclitics -->
+    		<sdef n="vb"/> 			<!-- verb --> 
+			<sdef n="pres"/>		<!-- present -->
+			<sdef n="past"/>		<!-- past -->
+			<sdef n="fut"/>		<!-- future -->
+		<sdef n="pn"/>			<!-- pronoun -->
+			<sdef n="p1"/>		<!-- first person -->
+			<sdef n="p2"/>		<!-- second person -->
+			<sdef n="p3"/>		<!-- third person -->
+    		<sdef n="adj"/> 			<!-- adjectives --> 
+		<sdef n="ot"/>			<!-- others -->
+		<sdef n="numeral"/> 		<!-- numerals -->
+		<sdef n="sep"/> 			<!-- punctuation -->
+
+  	</sdefs>
+	
+	<section id="main" type="standard">
+
+		<e><p><l>০<s n="numeral"/></l><r>0<s n="numeral"/></r></p></e>
+		<e><p><l>১<s n="numeral"/></l><r>1<s n="numeral"/></r></p></e>
+		<e><p><l>২<s n="numeral"/></l><r>2<s n="numeral"/></r></p></e>
+		<e><p><l>৩<s n="numeral"/></l><r>3<s n="numeral"/></r></p></e>
+		<e><p><l>৪<s n="numeral"/></l><r>4<s n="numeral"/></r></p></e>
+		<e><p><l>৫<s n="numeral"/></l><r>5<s n="numeral"/></r></p></e>
+		<e><p><l>৬<s n="numeral"/></l><r>6<s n="numeral"/></r></p></e>
+		<e><p><l>৭<s n="numeral"/></l><r>7<s n="numeral"/></r></p></e>
+		<e><p><l>৮<s n="numeral"/></l><r>8<s n="numeral"/></r></p></e>
+		<e><p><l>৯<s n="numeral"/></l><r>9<s n="numeral"/></r></p></e>
+
+		<e><p><l>.<s n="sep"/></l><r>.<s n="sep"/></r></p></e>
+		<e><p><l>\<s n="sep"/></l><r>\<s n="sep"/></r></p></e>
+		<e><p><l>?<s n="sep"/></l><r>?<s n="sep"/></r></p></e>
+		<e><p><l>;<s n="sep"/></l><r>;<s n="sep"/></r></p></e>
+		<e><p><l>:<s n="sep"/></l><r>:<s n="sep"/></r></p></e>
+		<e><p><l>!<s n="sep"/></l><r>!<s n="sep"/></r></p></e>
+		<e><p><l>৷<s n="sep"/></l><r>।<s n="sep"/></r></p></e>
+
+
+	<!-- enclitics -->
+		<e><p><l>টো<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+		<e><p><l>পাহ<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+		<e><p><l>খন<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+		<e><p><l>জন<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+		<e><p><l>জনী<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+		<e><p><l>গৰাকী<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+
+	<!--proper nouns -->
+		<e><p><l>অঞ্জন<s n="prn"/></l><r>Anjan<s n="prn"/></r></p></e>
+		<e><p><l>অঞ্জনা<s n="prn"/></l><r>Anjana<s n="prn"/></r></p></e>
+		<e><p><l>ব্ৰক্ষ্মপুত্ৰ<s n="prn"/></l><r>Brahmaputra<s n="prn"/></r></p></e>
+		<e><p><l>লুইত<s n="prn"/></l><r>Luit<s n="prn"/></r></p></e>
+		<e><p><l>অনুসূয়া<s n="prn"/></l><r>Anusuya<s n="prn"/></r></p></e>
+		<e><p><l>অক্টোবৰ<s n="prn"/></l><r>October<s n="prn"/></r></p></e>
+		<e><p><l>আগষ্ট<s n="prn"/></l><r>August<s n="prn"/></r></p></e>
+		<e><p><l>আঘোন<s n="prn"/></l><r>Aghun<s n="prn"/></r></p></e>
+		<e><p><l>অনামিকা<s n="prn"/></l><r>Anamika<s n="prn"/></r></p></e>
+		<e><p><l>এপ্ৰিল<s n="prn"/></l><r>April<s n="prn"/></r></p></e>
+		<e><p><l>আমেৰিকা<s n="prn"/></l><r>America<s n="prn"/></r></p></e>
+		<e><p><l>অৰ্জুন<s n="prn"/></l><r>Arjun<s n="prn"/></r></p></e>
+		<e><p><l>অসম<s n="prn"/></l><r>Assam<s n="prn"/></r></p></e>
+		<e><p><l>ভাৰত<s n="prn"/></l><r>India<s n="prn"/></r></p></e>
+		<e><p><l>শ্ৰীকৃষ্ণ<s n="prn"/></l><r>Srikrishna<s n="prn"/></r></p></e>
+		<e><p><l>ইন্দ্ৰ<s n="prn"/></l><r>Indra<s n="prn"/></r></p></e>
+		<e><p><l>কাশ্মীৰ<s n="prn"/></l><r>Kashmir<s n="prn"/></r></p></e>
+		<e><p><l>জুন<s n="prn"/></l><r>June<s n="prn"/></r></p></e>
+		<e><p><l>জানুৱাৰী<s n="prn"/></l><r>January<s n="prn"/></r></p></e>
+		<e><p><l>ফেব্ৰুৱাৰী<s n="prn"/></l><r>February<s n="prn"/></r></p></e>
+		<e><p><l>মাৰ্চ<s n="prn"/></l><r>March<s n="prn"/></r></p></e>
+		<e><p><l>মে<s n="prn"/></l><r>May<s n="prn"/></r></p></e>
+		<e><p><l>জুলাই<s n="prn"/></l><r>july<s n="prn"/></r></p></e>
+		<e><p><l>চেপ্তেম্বৰ<s n="prn"/></l><r>September<s n="prn"/></r></p></e>
+		<e><p><l>নৱেম্বৰ<s n="prn"/></l><r>November<s n="prn"/></r></p></e>
+		<e><p><l>ডিচেম্বৰ<s n="prn"/></l><r>December<s n="prn"/></r></p></e>
+		<e><p><l>ৰাম<s n="prn"/></l><r>Ram<s n="prn"/></r></p></e>
+		<e><p><l>হিন্দুস্থান<s n="prn"/></l><r>Hindustan<s n="prn"/></r></p></e>
+		<e><p><l>ভাৰতবৰ্ষ<s n="prn"/></l><r>India<s n="prn"/></r></p></e>
+
+	<!-- अ -->
+	<!-- nouns -->
+		<e><p><l>অপৰাধ<s n="n"/></l><r>crime<s n="n"/></r></p></e>
+		<e><p><l>অঙ্ক<s n="n"/></l><r>digit<s n="n"/></r></p></e>
+		<e><p><l>অভিমান<s n="n"/></l><r>pride<s n="n"/></r></p></e>
+		<e><p><l>চকু<s n="n"/></l><r>eye<s n="n"/></r></p></e>
+		<e><p><l>বুঢ়া<b/>আঙুলি<s n="n"/></l><r>thumb<s n="n"/></r></p></e>
+		<e><p><l>আঙুঠি<s n="n"/></l><r>ring<s n="n"/></r></p></e>
+		<e><p><l>আঙুৰ<s n="n"/></l><r>grapes<s n="n"/></r></p></e>
+		<e><p><l>গামোছা<s n="n"/></l><r>towel<s n="n"/></r></p></e>
+		<e><p><l>কণী<s n="n"/></l><r>egg<s n="n"/></r></p></e>
+		<e><p><l>প্ৰাৰ্থক্য<s n="n"/></l><r>difference<s n="n"/></r></p></e>
+		<e><p><l>অন্ধকাৰ<s n="n"/></l><r>darkness<s n="n"/></r></p></e>
+		<e><p><l>অন্যায়<s n="n"/></l><r>injustice<s n="n"/></r></p></e>
+		<e><p><l>অংশ<s n="n"/></l><r>a<b/>fraction<s n="n"/></r></p></e>
+		<e><p><l>চিলনী<s n="n"/></l><r>kite<s n="n"/></r></p></e>
+		<e><p><l>বুদ্ধি<s n="n"/></l><r>intellect<s n="n"/></r></p></e>
+		<e><p><l>বাতৰি<b/>কাকত<s n="n"/></l><r>newspaper<s n="n"/></r></p></e>
+		<e><p><l>আঘাত<s n="n"/></l><r>stroke<s n="n"/></r></p></e>
+		<e><p><l>আঠ<b/>অনা<s n="n"/></l><r>50<b/>paisa<s n="n"/></r></p></e>
+		<e><p><l>আলু<s n="n"/></l><r>potato<s n="n"/></r></p></e>
+		<e><p><l>আদা<s n="n"/></l><r>ginger<s n="n"/></r></p></e>
+		<e><p><l>অধিকাৰী<s n="n"/></l><r>officer<s n="n"/></r></p></e>
+		<e><p><l>অধ্যক্ষ<s n="n"/></l><r>president<s n="n"/></r></p></e>
+		<e><p><l>অধ্যয়ন<s n="n"/></l><r>study<s n="n"/></r></p></e>
+		<e><p><l>অধ্যাপক<s n="n"/></l><r>teacher<s n="n"/></r></p></e>
+		<e><p><l>শস্য<s n="n"/></l><r>grain<s n="n"/></r></p></e>
+		<e><p><l>ডালিম<s n="n"/></l><r>pomegranate<s n="n"/></r></p></e>
+		<e><p><l>অপকাৰ<s n="n"/></l><r>harm<s n="n"/></r></p></e>
+		<e><p><l>অমঙ্গল<s n="n"/></l><r>hoodoo<s n="n"/></r></p></e>
+		<e><p><l>অপহৰণ<s n="n"/></l><r>abduction<s n="n"/></r></p></e>
+		<e><p><l>অপেশ্বৰী<s n="n"/></l><r>nymph<s n="n"/></r></p></e>
+		<e><p><l>উৰা<b/>বাতৰি<s n="n"/></l><r>rumor<s n="n"/></r></p></e>
+		<e><p><l>বিষয়া<s n="n"/></l><r>officer<s n="n"/></r></p></e>
+		<e><p><l>অভিনন্দন<s n="n"/></l><r>greetings<s n="n"/></r></p></e>
+		<e><p><l>মধুৰিয়াম<s n="n"/></l><r>guava<s n="n"/></r></p></e>
+		<e><p><l>কামনা<s n="n"/></l><r>wish<s n="n"/></r></p></e>
+		<e><p><l>আবেদন<s n="n"/></l><r>application<s n="n"/></r></p></e>
+		<e><p><l>অলঙ্কাৰ<s n="n"/></l><r>decking<s n="n"/></r></p></e>
+		<e><p><l>অলংকাৰ<s n="n"/></l><r>decking<s n="n"/></r></p></e>
+		<e><p><l>আলমাৰী<s n="n"/></l><r>cupboard<s n="n"/></r></p></e>
+		<e><p><l>উলৰ<b/>চাদৰ<s n="n"/></l><r>shawl<s n="n"/></r></p></e>
+		<e><p><l>ভোঁমোৰা<s n="n"/></l><r>auricles<s n="n"/></r></p></e>
+		<e><p><l>মনোযোগ<s n="n"/></l><r>attention<s n="n"/></r></p></e>
+		<e><p><l>সুযোগ<s n="n"/></l><r>opputunity<s n="n"/></r></p></e>
+		<e><p><l>অৱস্থা<s n="n"/></l><r>condition<s n="n"/></r></p></e>
+		<e><p><l>অৱহেলা<s n="n"/></l><r>disdain<s n="n"/></r></p></e>
+		<e><p><l>প্ৰভাৱ<s n="n"/></l><r>impact<s n="n"/></r></p></e>
+		<e><p><l>চিকিৎসালয়<s n="n"/></l><r>hospital<s n="n"/></r></p></e>
+		<e><p><l>অহংকাৰ<s n="n"/></l><r>ego<s n="n"/></r></p></e>
+		<e><p><l>অপকাৰ<s n="n"/></l><r>injured<s n="n"/></r></p></e>
+		<e><p><l>আদালত<s n="n"/></l><r>law<b/>court<s n="n"/></r></p></e>
+		<e><p><l>অভিজ্ঞতা<s n="n"/></l><r>perception<s n="n"/></r></p></e>
+		<e><p><l>অসত্য<s n="n"/></l><r>lie<s n="n"/></r></p></e>
+		<e><p><l>অনুভৱ<s n="n"/></l><r>experience<s n="n"/></r></p></e>
+		<e><p><l>অপৰাধী<s n="n"/></l><r>culprit<s n="n"/></r></p></e>	
+
+	<!-- adjectives -->
+		<e><p><l>অদ্ভূত<s n="adj"/></l><r>uncanny<s n="adj"/></r></p></e>
+		<e><p><l>শেষ<s n="adj"/></l><r>final<s n="adj"/></r></p></e>
+		<e><p><l>ভিতৰত<s n="adj"/></l><r>inside<s n="adj"/></r></p></e>
+		<e><p><l>অন্ধ<s n="adj"/></l><r>sightless<s n="adj"/></r></p></e>
+		<e><p><l>প্ৰায়<s n="adj"/></l><r>mostly<s n="adj"/></r></p></e>
+		<e><p><l>হঠাতে<s n="adj"/></l><r>sudden<s n="adj"/></r></p></e>
+		<e><p><l>অকলশৰীয়া<s n="adj"/></l><r>solitary<s n="adj"/></r></p></e>
+		<e><p><l>ভাল<s n="adj"/></l><r>good<s n="adj"/></r></p></e>
+		<e><p><l>অপৰিচিত<s n="adj"/></l><r>unknown<s n="adj"/></r></p></e>
+		<e><p><l>আঠাইশ<s n="adj"/></l><r>twenty-eight<s n="adj"/></r></p></e>
+		<e><p><l>অসমীয়া<s n="adj"/></l><r>assamese<s n="adj"/></r></p></e>
+		<e><p><l>আঠানব্বৈ<s n="adj"/></l><r>ninety<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>আঠাৱন্ন<s n="adj"/></l><r>fifty<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>আঠাশী<s n="adj"/></l><r>eighty<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>ওঁঠৰ<s n="adj"/></l><r>eighteen<s n="adj"/></r></p></e>
+		<e><p><l>আঠচল্লিশ<s n="adj"/></l><r>eighty<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>আঠত্ৰিশ<s n="adj"/></l><r>eighty<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>আঠাশী<s n="adj"/></l><r>eighty<b/>eight<s n="adj"/></r></p></e>
+		<e><p><l>অসম্পূৰ্ণ<s n="adj"/></l><r>unfinished<s n="adj"/></r></p></e>
+		<e><p><l>অসংখ্য<s n="adj"/></l><r>countless<s n="adj"/></r></p></e>
+		<e><p><l>ধনী<s n="adj"/></l><r>wealthy<s n="adj"/></r></p></e>
+		<e><p><l>অশিক্ষিত<s n="adj"/></l><r>illiterate<s n="adj"/></r></p></e>
+		<e><p><l>অমূল্য<s n="adj"/></l><r>priceless<s n="adj"/></r></p></e>
+		<e><p><l>অসম্ভৱ<s n="adj"/></l><r>impossible<s n="adj"/></r></p></e>
+		<e><p><l>অনাথ<s n="adj"/></l><r>fatherless<s n="adj"/></r></p></e>
+		<e><p><l>বেলেগ<s n="adj"/></l><r>different<s n="adj"/></r></p></e>
+		<e><p><l>অপমানিত<s n="adj"/></l><r>degraded<s n="adj"/></r></p></e>
+		<e><p><l>এশ<b/>কোটি<s n="adj"/></l><r>hundred<b/>crores<s n="adj"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>যদি<s n="ot"/></l><r>if<s n="ot"/></r></p></e>	
+		<e><p><l>বাহিৰে<s n="ot"/></l><r>forby<s n="ot"/></r></p></e>
+
+	<!-- आ -->
+	<!-- nouns -->
+		<e><p><l>আম<s n="n"/></l><r>mango<s n="n"/></r></p></e>
+		<e><p><l>হানি<s n="n"/></l><r>harm<s n="n"/></r></p></e>
+		<e><p><l>আমলখী<s n="n"/></l><r>indian<b/>gooseberry<s n="n"/></r></p></e>
+		<e><p><l>চকুলো<s n="n"/></l><r>tears<s n="n"/></r></p></e>
+		<e><p><l>আইনা<s n="n"/></l><r>mirror<s n="n"/></r></p></e>
+		<e><p><l>দাপোন<s n="n"/></l><r>morror<s n="n"/></r></p></e>
+		<e><p><l>আশা<s n="n"/></l><r>hope<s n="n"/></r></p></e>
+		<e><p><l>আকাশ<s n="n"/></l><r>sky<s n="n"/></r></p></e>
+		<e><p><l>জুই<s n="n"/></l><r>fire<s n="n"/></r></p></e>
+		<e><p><l>আগ্ৰহ<s n="n"/></l><r>insistance<s n="n"/></r></p></e>
+		<e><p><l>আজ্ঞা<s n="n"/></l><r>permision<s n="n"/></r></p></e>
+		<e><p><l>আত্মহত্যা<s n="n"/></l><r>suicide<s n="n"/></r></p></e>
+		<e><p><l>স্বভাৱ<s n="n"/></l><r>habit<s n="n"/></r></p></e>
+		<e><p><l>আদৰ<s n="n"/></l><r>honor<s n="n"/></r></p></e>
+		<e><p><l>আয়োজন<s n="n"/></l><r>organizing<s n="n"/></r></p></e>
+		<e><p><l>আদেশ<s n="n"/></l><r>order<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>আৱশ্যক<s n="adj"/></l><r>necessary<s n="adj"/></r></p></e>
+		<e><p><l>প্ৰয়োজনীয়<s n="adj"/></l><r>essential<s n="adj"/></r></p></e>
+		<e><p><l>অৱশেষত<s n="adj"/></l><r>atlast<s n="adj"/></r></p></e>
+		<e><p><l>আগত<s n="adj"/></l><r>ahead<s n="adj"/></r></p></e>
+		<e><p><l>আজি<s n="adj"/></l><r>today<s n="adj"/></r></p></e>
+		<e><p><l>গোটেই<b/>জীৱন<s n="adj"/></l><r>lifelong<s n="adj"/></r></p></e>
+		<e><p><l>আপোনজন<s n="adj"/></l><r>kindred<s n="adj"/></r></p></e>
+		<e><p><l>আত্মীয়<s n="adj"/></l><r>cognate<s n="adj"/></r></p></e>
+		<e><p><l>আৰাধ্য<s n="adj"/></l><r>adorable<s n="adj"/></r></p></e>
+		<e><p><l>আৰোগ্য<s n="adj"/></l><r>well<b/>being<s n="adj"/></r></p></e>
+		<e><p><l>আৰ্থিক<s n="adj"/></l><r>economic<s n="adj"/></r></p></e>
+		<e><p><l>এলেহুৱা<s n="adj"/></l><r>lazy<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>আহ<s n="vb"/></l><r>comming<s n="vb"/></r></p></e>
+		<e><p><l>নকৰিবি<s n="vb"/></l><r>do<b/>not<s n="vb"/></r></p></e>
+
+	<!-- इ -->
+	<!-- nouns -->
+		<e><p><l>অভিযন্তা<s n="n"/></l><r>engineer<s n="n"/></r></p></e>
+		<e><p><l>ৰামধেনু<s n="n"/></l><r>rainbow<s n="n"/></r></p></e>
+		<e><p><l>ন্যায়<s n="n"/></l><r>justice<s n="n"/></r></p></e>
+		<e><p><l>স্বীকৃতি<s n="n"/></l><r>acceptance<s n="n"/></r></p></e>
+		<e><p><l>ইচ্ছা<s n="n"/></l><r>want<s n="n"/></r></p></e>
+		<e><p><l>অনুমতি<s n="n"/></l><r>pemission<s n="n"/></r></p></e>
+		<e><p><l>বুৰঞ্জী<s n="n"/></l><r>history<s n="n"/></r></p></e>
+		<e><p><l>সংযোগ<s n="n"/></l><r>coincidence<s n="n"/></r></p></e>
+		<e><p><l>পুৰস্কাৰ<s n="n"/></l><r>recompense<s n="n"/></r></p></e>
+		<e><p><l>অস্বীকাৰ<s n="n"/></l><r>refuse<s n="n"/></r></p></e>
+		<e><p><l>ন্যায়<s n="n"/></l><r>justice<s n="n"/></r></p></e>
+		<e><p><l>তেতেলি<s n="n"/></l><r>tamarind<s n="n"/></r></p></e>
+		<e><p><l>পকা<b/>ঘৰ<s n="n"/></l><r>house<s n="n"/></r></p></e>
+		<e><p><l>সংকল্প<s n="n"/></l><r>इरादा<s n="n"/></r></p></e>
+		<e><p><l>চিকিৎসা<s n="n"/></l><r>remedy<s n="n"/></r></p></e>
+		<e><p><l>ইলাচি<s n="n"/></l><r>cardamom<s n="n"/></r></p></e>
+		<e><p><l>সংকেত<s n="n"/></l><r>indicate<s n="n"/></r></p></e>
+		<e><p><l>ইচ্লাম<s n="n"/></l><r>Islam<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>এটা-দুটা<s n="adj"/></l><r>one-two<s n="adj"/></r></p></e>
+		<e><p><l>একত্ৰিশ<s n="adj"/></l><r>thirty<b/>one<s n="adj"/></r></p></e>
+		<e><p><l>ইমান<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
+		<e><p><l>ইফালে-সিফালে<s n="adj"/></l><r>इर्द-गिर्द<s n="adj"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>এইফালে<s n="ot"/></l><r>here<s n="ot"/></r></p></e>
+		<e><p><l>এই<b/>কাৰণে<s n="ot"/></l><r>therefore<s n="ot"/></r></p></e>
+		<e><p><l>সেই<b/>কাৰণে<s n="ot"/></l><r>therefore<s n="ot"/></r></p></e>
+
+	<!-- ई -->
+	<!-- nouns -->
+		<e><p><l>ইটা<s n="n"/></l><r>brick<s n="n"/></r></p></e>
+		<e><p><l>ঈদ<s n="n"/></l><r>id<s n="n"/></r></p></e>
+		<e><p><l>খৃষ্টাব্দ<s n="n"/></l><r>A.D.<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>বিশ্বাসনীয়<s n="adj"/></l><r>straightforward<s n="adj"/></r></p></e>
+		<e><p><l>খ্ৰীষ্টিয়ান<s n="adj"/></l><r>christian<s n="adj"/></r></p></e>
+
+	<!-- उ -->
+	<!-- nouns -->
+		<e><p><l>আঙুলি<s n="n"/></l><r>finger<s n="n"/></r></p></e>
+		<e><p><l>উজ্বলতা<s n="n"/></l><r>light<s n="n"/></r></p></e>
+		<e><p><l>উৎপাত<s n="n"/></l><r>violence<s n="n"/></r></p></e>
+		<e><p><l>উদ্যোগ<s n="n"/></l><r>industry<s n="n"/></r></p></e>
+		<e><p><l>ধাৰ<s n="n"/></l><r>borrow<s n="n"/></r></p></e>
+		<e><p><l>উৎপাদন<s n="n"/></l><r>manufacturing<s n="n"/></r></p></e>
+		<e><p><l>বয়স<s n="n"/></l><r>age<s n="n"/></r></p></e>
+		<e><p><l>প্ৰাৰ্থী<s n="n"/></l><r>candidate<s n="n"/></r></p></e>
+		<e><p><l>উৰ্দূ<s n="n"/></l><r>urdu<s n="n"/></r></p></e>
+		<e><p><l>ফেঁচা<s n="n"/></l><r>owl<s n="n"/></r></p></e>
+		<e><p><l>উন্নতি<s n="n"/></l><r>advance<s n="n"/></r></p></e>
+		<e><p><l>উত্তৰ<s n="n"/></l><r>answer<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>উত্তৰীয়<s n="adj"/></l><r>northerly<s n="adj"/></r></p></e>
+		<e><p><l>মুকলি<s n="adj"/></l><r>immune<s n="adj"/></r></p></e>
+		<e><p><l>উঠা-নমা<s n="adj"/></l><r>vagary<s n="adj"/></r></p></e>
+		<e><p><l>উজ্বল<s n="adj"/></l><r>bright<s n="adj"/></r></p></e>
+		<e><p><l>উপস্থিত<s n="adj"/></l><r>present<s n="adj"/></r></p></e>
+		<e><p><l>উপেক্ষিত<s n="adj"/></l><r>neglected<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>জপিয়া<s n="vb"/></l><r>bounce<s n="vb"/></r></p></e>
+		<e><p><l>উঠ<s n="vb"/></l><r>raise<s n="vb"/></r></p></e>
+
+	<!-- ऊ -->
+	<!-- nouns -->
+		<e><p><l>উচ্চতা<s n="n"/></l><r>loftiness<s n="n"/></r></p></e>
+		<e><p><l>গন্দগোল<s n="n"/></l><r>hustle<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>ওখ<s n="adj"/></l><r>above<s n="adj"/></r></p></e>
+		<e><p><l>উলট-পালট<s n="adj"/></l><r>up-down<s n="adj"/></r></p></e>
+
+	<!-- ए -->
+	<!-- nouns -->
+		<e><p><l>একতা<s n="n"/></l><r>solidarity<s n="n"/></r></p></e>
+		<e><p><l>উপকাৰ<s n="n"/></l><r>oblige<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>এক<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
+		<e><p><l>এটা<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
+		<e><p><l>এজন<s n="adj"/></l><r><s n="adj"/></r></p></e>
+		<e><p><l>এগৰাকী<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
+		<e><p><l>এজনী<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
+		<e><p><l>এখন<s n="adj"/></l><r>a<s n="adj"/></r></p></e>	
+
+	<!-- ऐ -->
+	<!-- adjectives -->
+		<e><p><l>এনে<s n="adj"/></l><r>by<s n="adj"/></r></p></e>
+		<e><p><l>এনেকুৱা<s n="adj"/></l><r>like<b/>this<s n="adj"/></r></p></e>
+		<e><p><l>এই<b/>ধৰণৰ<s n="adj"/></l><r>this<b/>type<s n="adj"/></r></p></e>
+		<e><p><l>এনে<b/>ধৰণৰ<s n="adj"/></l><r>such<s n="adj"/></r></p></e>
+		<e><p><l>এনে<b/>দৰে<s n="adj"/></l><r>like<b/>this<s n="adj"/></r></p></e>
+		<e><p><l>এই<b/>দৰে<s n="adj"/></l><r>like<b/>this<s n="adj"/></r></p></e>
+		<e><p><l>এনে<b/>ধৰণে<s n="adj"/></l><r>such<b/>as<s n="adj"/></r></p></e>
+
+	<!-- ओ -->
+	<!-- nouns -->
+		<e><p><l>নিয়ৰ<s n="n"/></l><r>dew<s n="n"/></r></p></e>
+
+	<!-- others -->
+
+	<!-- औ -->
+	<!-- nouns -->
+		<e><p><l>তিৰোতা<s n="n"/></l><r>female<s n="n"/></r></p></e>
+		<e><p><l>মাইকী<b/>মানুহ<s n="n"/></l><r>female<s n="n"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>আৰু<s n="ot"/></l><r>And<s n="ot"/></r></p></e>
+
+	<!-- क -->
+	<!-- nouns -->
+		<e><p><l>খোজ<s n="n"/></l><r>step<s n="n"/></r></p></e>
+		<e><p><l>কাপোৰ<s n="n"/></l><r>cloth<s n="n"/></r></p></e>
+		<e><p><l>কপাহ<s n="n"/></l><r>cotton<s n="n"/></r></p></e>
+		<e><p><l>কৃষ্ণ<s n="n"/></l><r>krishna<s n="n"/></r></p></e>
+		<e><p><l>পাৰ<b/>চৰাই<s n="n"/></l><r>pigeon<s n="n"/></r></p></e>
+		<e><p><l>কবৰ<s n="n"/></l><r>grave<s n="n"/></r></p></e>
+		<e><p><l>কবৰস্থান<s n="n"/></l><r>graveyard<s n="n"/></r></p></e>
+		<e><p><l>ককাঁল<s n="n"/></l><r>waist<s n="n"/></r></p></e>
+		<e><p><l>কোঠা<s n="n"/></l><r>room<s n="n"/></r></p></e>
+		<e><p><l>চোলা<s n="n"/></l><r>shirt<s n="n"/></r></p></e>
+		<e><p><l>কাৰ্য্য<s n="n"/></l><r>act<s n="n"/></r></p></e>
+		<e><p><l>বাগৰ<s n="n"/></l><r>turn<s n="n"/></r></p></e>
+		<e><p><l>ধৰুৱা<s n="n"/></l><r>borrower<s n="n"/></r></p></e>
+		<e><p><l>কলম<s n="n"/></l><r>pen<s n="n"/></r></p></e>
+		<e><p><l>কবিতা<s n="n"/></l><r>poetry<s n="n"/></r></p></e>
+		<e><p><l>কলিজা<s n="n"/></l><r>liver<s n="n"/></r></p></e>
+		<e><p><l>শপত<s n="n"/></l><r>swear<s n="n"/></r></p></e>
+		<e><p><l>দোষ<s n="n"/></l><r>fault<s n="n"/></r></p></e>
+		<e><p><l>দোষী<s n="n"/></l><r>guilty<s n="n"/></r></p></e>
+		<e><p><l>কাগজ<s n="n"/></l><r>paper<s n="n"/></r></p></e>
+		<e><p><l>কাণ<s n="n"/></l><r>ear<s n="n"/></r></p></e>
+		<e><p><l>বহি<s n="n"/></l><r>copy<s n="n"/></r></p></e>
+		<e><p><l>কাৰ্য্যালয়<s n="n"/></l><r>bureau<s n="n"/></r></p></e>
+		<e><p><l>জালুক<s n="n"/></l><r>black<b/>pepper<s n="n"/></r></p></e>
+		<e><p><l>কিতাপ<s n="n"/></l><r>book<s n="n"/></r></p></e>
+		<e><p><l>পাৰ<s n="n"/></l><r>verge<s n="n"/></r></p></e>
+		<e><p><l>ভাৰা<s n="n"/></l><r>rental<s n="n"/></r></p></e>
+		<e><p><l>কৃষক<s n="n"/></l><r>farmer<s n="n"/></r></p></e>
+		<e><p><l>খেতিয়ক<s n="n"/></l><r>farmer<s n="n"/></r></p></e>
+		<e><p><l>ৰকম<s n="n"/></l><r>kind<s n="n"/></r></p></e>
+		<e><p><l>ভাগ্য<s n="n"/></l><r>fate<s n="n"/></r></p></e>
+		<e><p><l>বোকা<s n="n"/></l><r>mud<s n="n"/></r></p></e>
+		<e><p><l>পোক<s n="n"/></l><r>worm<s n="n"/></r></p></e>
+		<e><p><l>দাম<s n="n"/></l><r>cost<s n="n"/></r></p></e>
+		<e><p><l>কুকুৰ<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+		<e><p><l>প্ৰকৃতি<s n="n"/></l><r>nature<s n="n"/></r></p></e>
+		<e><p><l>বলিদান<s n="n"/></l><r>sacrifice<s n="n"/></r></p></e>
+		<e><p><l>কুঠাৰ<s n="n"/></l><r>hatchet<s n="n"/></r></p></e>
+		<e><p><l>কেচি<s n="n"/></l><r>scissors<s n="n"/></r></p></e>
+		<e><p><l>বন্দী<s n="n"/></l><r>captive<s n="n"/></r></p></e>
+		<e><p><l>কোঠালী<s n="n"/></l><r>cabin<s n="n"/></r></p></e>
+		<e><p><l>কুলী<b/>চৰাই<s n="n"/></l><r>cuckoo<s n="n"/></r></p></e>
+		<e><p><l>চেষ্টা<s n="n"/></l><r>attempt<s n="n"/></r></p></e>
+		<e><p><l>কহিনুৰ<s n="n"/></l><r>kohinoor<s n="n"/></r></p></e>
+		<e><p><l>কাউৰি<s n="n"/></l><r>crow<s n="n"/></r></p></e>
+		<e><p><l>কবি<s n="n"/></l><r>poet<s n="n"/></r></p></e>
+		<e><p><l>গল্প<s n="n"/></l><r>yarn<s n="n"/></r></p></e>
+		<e><p><l>কাহিনী<s n="n"/></l><r>story<s n="n"/></r></p></e>
+		<e><p><l>কষ্ট<s n="n"/></l><r>suffer<s n="n"/></r></p></e>
+		<e><p><l>বলি<s n="n"/></l><r>sacrifice<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>কেঁচা<s n="adj"/></l><r>raw<s n="adj"/></r></p></e>
+		<e><p><l>দুৰ্বল<s n="adj"/></l><r>vulnerable<s n="adj"/></r></p></e>
+		<e><p><l>নীচ<s n="adj"/></l><r>slavish<s n="adj"/></r></p></e>
+		<e><p><l>ওচৰ<s n="adj"/></l><r>close<s n="adj"/></r></p></e>
+		<e><p><l>ওচৰত<s n="adj"/></l><r>near<s n="adj"/></r></p></e>
+		<e><p><l>যথেষ্ট<s n="adj"/></l><r>quiet<s n="adj"/></r></p></e>
+		<e><p><l>যোগ্য<s n="adj"/></l><r>capable<s n="adj"/></r></p></e>
+		<e><p><l>ভয়াতুৰ<s n="adj"/></l><r>coward<s n="adj"/></r></p></e>
+		<e><p><l>ক'লা<s n="adj"/></l><r>black<s n="adj"/></r></p></e>
+		<e><p><l>কৃষ্ণবৰ্ণ<s n="adj"/></l><r>black<s n="adj"/></r></p></e>
+		<e><p><l>কিছু<s n="adj"/></l><r>few<s n="adj"/></r></p></e>
+		<e><p><l>কিছুমান<s n="adj"/></l><r>somewhat<s n="adj"/></r></p></e>
+		<e><p><l>কুশল<s n="adj"/></l><r>master<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>কাট<s n="vb"/></l><r>reap<s n="vb"/></r></p></e>
+		<e><p><l>কৰ<s n="vb"/></l><r>do<s n="vb"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>কি<s n="ot"/></l><r>what<s n="ot"/></r></p></e>
+		<e><p><l>কিয়<s n="ot"/></l><r>why<s n="ot"/></r></p></e>
+		<e><p><l>কাৰণ<s n="ot"/></l><r>reason<s n="ot"/></r></p></e>
+		<e><p><l>ক'ত<s n="ot"/></l><r>where<s n="ot"/></r></p></e>
+		<e><p><l>কৰবাত<s n="ot"/></l><r>somewhere<s n="ot"/></r></p></e>
+		<e><p><l>কিমান<s n="ot"/></l><r>how<b/>much<s n="ot"/></r></p></e>
+		<e><p><l>কোনফালে<s n="ot"/></l><r>where<s n="ot"/></r></p></e>
+		<e><p><l>কি<b/>কাৰণে<s n="ot"/></l><r>where<b/>for<s n="ot"/></r></p></e>
+		<e><p><l>দয়া<b/>কৰি<s n="ot"/></l><r>please<s n="ot"/></r></p></e>
+		<e><p><l>অনুগ্ৰহ<b/>কৰি<s n="ot"/></l><r>please<s n="ot"/></r></p></e>
+		<e><p><l>কৃপা<b/>কৰি<s n="ot"/></l><r>please<s n="ot"/></r></p></e>
+		<e><p><l>কেনেকুৱা<s n="ot"/></l><r>what<s n="ot"/></r></p></e>
+		<e><p><l>কেনেকৈ<s n="ot"/></l><r>how<s n="ot"/></r></p></e>
+		<e><p><l>কেনে<b/>দৰে<s n="ot"/></l><r>how<b/>can<s n="ot"/></r></p></e>
+		<e><p><l>কি<b/>দৰে<s n="ot"/></l><r>how<b/>can<s n="ot"/></r></p></e>
+		<e><p><l>কেনে<b/>ধৰণে<s n="ot"/></l><r>how<b/>can<s n="ot"/></r></p></e>
+		<e><p><l>কি<b/>ধৰণে<s n="ot"/></l><r>how<b/>can<s n="ot"/></r></p></e>
+		<e><p><l>কি<b/>ধৰণৰ<s n="ot"/></l><r>of<b/>what<b/>short<s n="ot"/></r></p></e>
+		<e><p><l>কোনোবা<s n="ot"/></l><r>someone<s n="ot"/></r></p></e>
+		<e><p><l>কোনো<s n="ot"/></l><r>any<s n="ot"/></r></p></e>
+
+	<!-- ख -->
+	<!-- nouns -->
+		<e><p><l>বিপদ<s n="n"/></l><r>risk<s n="n"/></r></p></e>
+		<e><p><l>বাতৰি<s n="n"/></l><r>news<s n="n"/></r></p></e>
+		<e><p><l>খবৰ<s n="n"/></l><r>message<s n="n"/></r></p></e>
+		<e><p><l>খোৱা-বোৱা<s n="n"/></l><r>खान-पान<s n="n"/></r></p></e>
+		<e><p><l>ছাল<s n="n"/></l><r>skin<s n="n"/></r></p></e>
+		<e><p><l>উপাধি<s n="n"/></l><r>title<s n="n"/></r></p></e>
+		<e><p><l>খেলুৱৈ<s n="n"/></l><r>sportsman<s n="n"/></r></p></e>
+		<e><p><l>খেলনা<s n="n"/></l><r>plaything<s n="n"/></r></p></e>
+		<e><p><l>খুৰমা<s n="n"/></l><r>khurma<s n="n"/></r></p></e>
+		<e><p><l>আনন্দ<s n="n"/></l><r>pleasure<s n="n"/></r></p></e>
+		<e><p><l>হত্যাকাৰী<s n="n"/></l><r>bloodshot<s n="n"/></r></p></e>
+		<e><p><l>বিশেষত্ব<s n="n"/></l><r>beauty<s n="n"/></r></p></e>
+		<e><p><l>পথাৰ<s n="n"/></l><r>farm<s n="n"/></r></p></e>
+		<e><p><l>খেতি<s n="n"/></l><r>cultivate<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>টেঙা<s n="adj"/></l><r>sour<s n="adj"/></r></p></e>
+		<e><p><l>শেষ<s n="adj"/></l><r>over<s n="adj"/></r></p></e>
+		<e><p><l>অসন্তুষ্ট<s n="adj"/></l><r>unsatisfied<s n="adj"/></r></p></e>
+		<e><p><l>মিছায়ে<s n="adj"/></l><r>खाम-खाह<s n="adj"/></r></p></e>
+		<e><p><l>শুদা<s n="adj"/></l><r>empty<s n="adj"/></r></p></e>
+		<e><p><l>বিশেষ<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
+		<e><p><l>স্বাৰ্থপৰ<s n="adj"/></l><r>खुद-गरज<s n="adj"/></r></p></e>
+		<e><p><l>আনন্দিত<s n="adj"/></l><r>pleased<s n="adj"/></r></p></e>
+		<e><p><l>ধুনীয়া<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>কিন<s n="vb"/></l><r>purchase<s n="vb"/></r></p></e>
+		<e><p><l>কাহ<s n="vb"/></l><r>cough<s n="vb"/></r></p></e>
+		<e><p><l>টান<s n="vb"/></l><r>draw<s n="vb"/></r></p></e>
+		<e><p><l>খুৱা<s n="vb"/></l><r>feed<s n="vb"/></r></p></e>
+		<e><p><l>খুল<s n="vb"/></l><r>open<s n="vb"/></r></p></e>
+		<e><p><l>হেৰা<s n="vb"/></l><r>lost<s n="vb"/></r></p></e>
+		<e><p><l>খা<s n="vb"/></l><r>eat<s n="vb"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>বাৰু<s n="ot"/></l><r>well<s n="ot"/></r></p></e>
+
+	<!-- ग -->
+	<!-- nouns -->
+		<e><p><l>কুঁহিয়াৰ<s n="n"/></l><r>cane<s n="n"/></r></p></e>
+		<e><p><l>গঙ্গা<s n="n"/></l><r>ganga<s n="n"/></r></p></e>
+		<e><p><l>গৰু<s n="n"/></l><r>cow<s n="n"/></r></p></e>
+		<e><p><l>গজল<s n="n"/></l><r>gazal<s n="n"/></r></p></e>
+		<e><p><l>ডিঙি<s n="n"/></l><r>scuff<s n="n"/></r></p></e>
+		<e><p><l>গান<s n="n"/></l><r>song<s n="n"/></r></p></e>
+		<e><p><l>গীত<s n="n"/></l><r>song<s n="n"/></r></p></e>
+		<e><p><l>শিয়াল<s n="n"/></l><r>jackel<s n="n"/></r></p></e>
+		<e><p><l>গোলাপ<s n="n"/></l><r>rose<s n="n"/></r></p></e>
+		<e><p><l>ফাকুগুড়ি<s n="n"/></l><r>holi<s n="n"/></r></p></e>
+		<e><p><l>খং<s n="n"/></l><r>anger<s n="n"/></r></p></e>
+		<e><p><l>নাৰ্জী<s n="n"/></l><r>marigold<s n="n"/></r></p></e>
+		<e><p><l>ঘেঁহু<s n="n"/></l><r>wheat<s n="n"/></r></p></e>
+		<e><p><l>গাড়ী<s n="n"/></l><r>carriage<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>তপা<s n="adj"/></l><r>bald<s n="adj"/></r></p></e>	
+		<e><p><l>গৰম<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>	
+		<e><p><l>দুখীয়া<s n="adj"/></l><r>poor<s n="adj"/></r></p></e>	
+		<e><p><l>ভুল<s n="adj"/></l><r>wrong<s n="adj"/></r></p></e>	
+		<e><p><l>দ'<s n="adj"/></l><r>deepen<s n="adj"/></r></p></e>	
+		<e><p><l>বোবা<s n="adj"/></l><r>dumb<s n="adj"/></r></p></e>	
+		<e><p><l>ঘূৰণীয়া<s n="adj"/></l><r>round<s n="adj"/></r></p></e>	
+
+	<!-- verbs -->
+		<e><p><l>গা<s n="vb"/></l><r>sing<s n="vb"/></r></p></e>
+		<e><p><l>পৰ<s n="vb"/></l><r>fall<s n="vb"/></r></p></e>
+		<e><p><l>জা<s n="vb"/></l><r>go<s n="vb"/></r></p></e>
+
+	<!-- घ -->
+	<!-- nouns -->
+		<e><p><l>ঘটনা<s n="n"/></l><r>incident<s n="n"/></r></p></e>
+		<e><p><l>ঘড়ী<s n="n"/></l><r>watch<s n="n"/></r></p></e>
+		<e><p><l>ঘৰ<s n="n"/></l><r>house<s n="n"/></r></p></e>
+		<e><p><l>ঘাঁহ<s n="n"/></l><r>grass<s n="n"/></r></p></e>
+		<e><p><l>বাঁহ<s n="n"/></l><r>bamboo<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>ঘৰুৱা<s n="adj"/></l><r>homely<s n="adj"/></r></p></e>
+		<e><p><l>আহত<s n="adj"/></l><r>injured<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ঘট<s n="vb"/></l><r>pot<s n="vb"/></r></p></e>
+
+	<!-- च -->
+	<!-- nouns -->
+		<e><p><l>খুৰা<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
+		<e><p><l>খুৰী<s n="n"/></l><r>aunty<s n="n"/></r></p></e>
+		<e><p><l>জোন<s n="n"/></l><r>moon<s n="n"/></r></p></e>
+		<e><p><l>চন্দ্ৰ<s n="n"/></l><r>moon<s n="n"/></r></p></e>
+		<e><p><l>আলোচনা<s n="n"/></l><r>discusssion<s n="n"/></r></p></e>
+		<e><p><l>জোনাক<s n="n"/></l><r>moonlight<s n="n"/></r></p></e>
+		<e><p><l>ৰূপ<s n="n"/></l><r>silver<s n="n"/></r></p></e>
+		<e><p><l>চাবি<s n="n"/></l><r>key<s n="n"/></r></p></e>
+		<e><p><l>চাহ<s n="n"/></l><r>tea<s n="n"/></r></p></e>
+		<e><p><l>চাউল<s n="n"/></l><r>rice<s n="n"/></r></p></e>
+		<e><p><l>ভাত<s n="n"/></l><r>rice<s n="n"/></r></p></e>
+		<e><p><l>চিঠি<s n="n"/></l><r>letter<s n="n"/></r></p></e>
+		<e><p><l>চিন্তা<s n="n"/></l><r>worry<s n="n"/></r></p></e>
+		<e><p><l>চৰাই<s n="n"/></l><r>bird<s n="n"/></r></p></e>
+		<e><p><l>চিৰিয়াখানা<s n="n"/></l><r>zoo<s n="n"/></r></p></e>
+		<e><p><l>বস্তু<s n="n"/></l><r>goods<s n="n"/></r></p></e>
+		<e><p><l>নাহৰ<b/>ফুতুকী<b/>বাঘ<s n="n"/></l><r>leopard<s n="n"/></r></p></e>
+		<e><p><l>চুমা<s n="n"/></l><r>kiss<s n="n"/></r></p></e>
+		<e><p><l>চোৰ<s n="n"/></l><r>thief<s n="n"/></r></p></e>
+		<e><p><l>চকিদাৰ<s n="n"/></l><r>guard<s n="n"/></r></p></e>
+		<e><p><l>পৰুৱা<s n="n"/></l><r>ant<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>মৰমৰ<s n="adj"/></l><r>dear<s n="adj"/></r></p></e>
+		<e><p><l>টেঙৰ<s n="adj"/></l><r>clever<s n="adj"/></r></p></e>
+		<e><p><l>চতুৰ<s n="adj"/></l><r>intellegent<s n="adj"/></r></p></e>
+		<e><p><l>চল্লিশ<s n="adj"/></l><r>forty<s n="adj"/></r></p></e>
+		<e><p><l>মনে<b/>মনে<s n="adj"/></l><r><s n="adj"/></r></p></e>
+		<e><p><l>আহল-বহল<s n="adj"/></l><r>broad<s n="adj"/></r></p></e>
+		<e><p><l>চতুৰ্থ<s n="adj"/></l><r>fourth<s n="adj"/></r></p></e>
+		<e><p><l>চৌৰাশী<s n="adj"/></l><r>eighty<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>চল<s n="vb"/></l><r>go<s n="vb"/></r></p></e>
+		<e><p><l>ব'ল<s n="vb"/></l><r>go<s n="vb"/></r></p></e>
+		<e><p><l>লাগে<s n="vb"/></l><r>need<s n="vb"/></r></p></e>
+		<e><p><l>চিঞৰ<s n="vb"/></l><r>shout<s n="vb"/></r></p></e>
+		<e><p><l>চুৰি<b/>কৰ<s n="vb"/></l><r>steal<s n="vb"/></r></p></e>
+		<e><p><l>খোজ<b/>কাঢ়<s n="vb"/></l><r>walk<s n="vb"/></r></p></e>
+
+	<!-- छ -->
+	<!-- nouns -->
+		<e><p><l>বুকু<s n="n"/></l><r>chest<s n="n"/></r></p></e>
+		<e><p><l>ছুটি<s n="n"/></l><r>holiday<s n="n"/></r></p></e>
+		<e><p><l>ছাত্ৰ<s n="n"/></l><r>male student<s n="n"/></r></p></e>
+		<e><p><l>ছাত্ৰী<s n="n"/></l><r>female student<s n="n"/></r></p></e>
+	<!-- adjectives -->
+		<e><p><l>ছয়<s n="adj"/></l><r>six<s n="adj"/></r></p></e>
+		<e><p><l>সৰু<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>লুকা<s n="vb"/></l><r>hide<s n="vb"/></r></p></e>
+		<e><p><l>কাঢ়<s n="vb"/></l><r>snatch<s n="vb"/></r></p></e>
+		<e><p><l>এৰ<s n="vb"/></l><r>leave<s n="vb"/></r></p></e>
+
+	<!-- ज -->
+	<!-- nouns -->
+		<e><p><l>হাবি<s n="n"/></l><r>jungle<s n="n"/></r></p></e>
+		<e><p><l>জংঘল<s n="n"/></l><r>jungle<s n="n"/></r></p></e>
+		<e><p><l>অৰণ্য<s n="n"/></l><r>jungle<s n="n"/></r></p></e>
+		<e><p><l>ঠাই<s n="n"/></l><r>place<s n="n"/></r></p></e>
+		<e><p><l>জেগা<s n="n"/></l><r>place<s n="n"/></r></p></e>
+		<e><p><l>আৱশ্যকতা<s n="n"/></l><r>needy<s n="n"/></r></p></e>
+		<e><p><l>প্ৰয়োজন<s n="n"/></l><r>necessary<s n="n"/></r></p></e>
+		<e><p><l>জল<s n="n"/></l><r>water<s n="n"/></r></p></e>
+		<e><p><l>জাতি<s n="n"/></l><r>जाति<s n="n"/></r></p></e>
+		<e><p><l>যৌৱন<s n="n"/></l><r>youth<s n="n"/></r></p></e>
+		<e><p><l>নৰক<s n="n"/></l><r>hell<s n="n"/></r></p></e>
+		<e><p><l>বিষ<s n="n"/></l><r>pain<s n="n"/></r></p></e>
+		<e><p><l>জাহাজ<s n="n"/></l><r>ship<s n="n"/></r></p></e>
+		<e><p><l>যাদু<s n="n"/></l><r>magic<s n="n"/></r></p></e>
+		<e><p><l>যাদুকৰ<s n="n"/></l><r>magician<s n="n"/></r></p></e>
+		<e><p><l>জীৱন<s n="n"/></l><r>life<s n="n"/></r></p></e>
+		<e><p><l>জ্ঞান<s n="n"/></l><r>knowledge<s n="n"/></r></p></e>
+		<e><p><l>জন্তু<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+		<e><p><l>জুলাই<s n="n"/></l><r>july<s n="n"/></r></p></e>
+		<e><p><l>জোতা<s n="n"/></l><r>shoe<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>সাৰ<b/>পা<s n="vb"/></l><r>wake<b/>up<s n="vb"/></r></p></e>
+		<e><p><l>জিয়া<s n="vb"/></l><r><s n="vb"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>নিশ্চয়<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
+		<e><p><l>বেছি<s n="adj"/></l><r>more<s n="adj"/></r></p></e>
+		<e><p><l>সোনকালে<s n="adj"/></l><r>fast<s n="adj"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>মহোদয়<s n="ot"/></l><r>sir<s n="ot"/></r></p></e>
+		<e><p><l>মহাশয়<s n="ot"/></l><r>sir<s n="ot"/></r></p></e>
+		<e><p><l>ডাঙৰীয়া<s n="ot"/></l><r>sir<s n="ot"/></r></p></e>
+		<e><p><l>দেউ<s n="ot"/></l><r>जी<s n="ot"/></r></p></e>
+		<e><p><l>যেতিয়া<s n="ot"/></l><r>when<s n="ot"/></r></p></e>
+		<e><p><l>যি<b/>ঠাইত<s n="ot"/></l><r>where<s n="ot"/></r></p></e>
+		<e><p><l>য'ত<s n="ot"/></l><r>where<s n="ot"/></r></p></e>
+		<e><p><l>নিচিনা<s n="ot"/></l><r>like<s n="ot"/></r></p></e>
+		<e><p><l>যিদৰে<s n="ot"/></l><r>like<s n="ot"/></r></p></e>
+		<e><p><l>যি<b/>প্ৰকাৰে<s n="ot"/></l><r>जैसे<s n="ot"/></r></p></e>
+		<e><p><l>যেনে<s n="ot"/></l><r>how<s n="ot"/></r></p></e>
+		<e><p><l>জয়<s n="ot"/></l><r>win<s n="ot"/></r></p></e>
+		<e><p><l>যি<s n="ot"/></l><r>जो<s n="ot"/></r></p></e>
+
+	<!-- झ -->
+	<!-- nouns -->
+		<e><p><l>পতাকা<s n="n"/></l><r>flag<s n="n"/></r></p></e>
+		<e><p><l>কাজিয়া<s n="n"/></l><r>fight<s n="n"/></r></p></e>
+		<e><p><l>হ্ৰদ<s n="n"/></l><r><s n="n"/></r></p></e>
+		<e><p><l>মিছা<s n="n"/></l><r>lie<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>কাজিয়া<b/>কৰ<s n="vb"/></l><r>quarrel<s n="vb"/></r></p></e>
+		<e><p><l>কাজিয়া<b/>লাগ<s n="vb"/></l><r>quarrel<s n="vb"/></r></p></e>
+
+	<!-- ट -->
+	<!-- nouns -->
+		<e><p><l>বিলাহী<s n="n"/></l><r>tomato<s n="n"/></r></p></e>
+		<e><p><l>টুকুৰা<s n="n"/></l><r>piece<s n="n"/></r></p></e>
+		<e><p><l>টুপী<s n="n"/></l><r>cap<s n="n"/></r></p></e>
+
+	<!-- ठ -->
+	<!-- nouns -->
+		<e><p><l>ঠেলা<b/>গাড়ী<s n="n"/></l><r>pulling<b/>car<s n="n"/></r></p></e>
+		<e><p><l>উজুটি<s n="n"/></l><r>ठोकर<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ঠগ<s n="vb"/></l><r>shape<s n="vb"/></r></p></e>
+		<e><p><l>ৰ<s n="vb"/></l><r>wait<s n="vb"/></r></p></e>
+		<e><p><l>ঠেল<s n="vb"/></l><r>push<s n="vb"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>ঠাণ্ডা<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
+		<e><p><l>চেচা<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
+		<e><p><l>ঠিক<s n="adj"/></l><r>right<s n="adj"/></r></p></e>
+
+	<!-- ड -->
+	<!-- nouns -->
+		<e><p><l>লাঠি<s n="n"/></l><r>stick<s n="n"/></r></p></e>
+		<e><p><l>গালি<s n="n"/></l><r>scold<s n="n"/></r></p></e>
+	<!-- adjectives -->
+		<e><p><l>ভয়ানক<s n="adj"/></l><r>frightning<s n="adj"/></r></p></e>
+		<e><p><l>ভয়ঙ্কৰ<s n="adj"/></l><r>frightning<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ভয়<b/>কৰ<s n="vb"/></l><r>frightened<s n="vb"/></r></p></e>
+		<e><p><l>ডুব<s n="vb"/></l><r>sink<s n="vb"/></r></p></e>
+
+	<!-- ढ -->
+	<!-- nouns -->
+		<e><p><l>ঢোল<s n="n"/></l><r>drum<s n="n"/></r></p></e>
+
+	<!-- त -->
+	<!-- nouns -->
+		<e><p><l>পুখুৰী<s n="n"/></l><r>pond<s n="n"/></r></p></e>
+		<e><p><l>স্বাস্থ্য<s n="n"/></l><r>health<s n="n"/></r></p></e>
+		<e><p><l>দৰমহা<s n="n"/></l><r>salary<s n="n"/></r></p></e>
+		<e><p><l>ধ্বংস<s n="n"/></l><r>destroy<s n="n"/></r></p></e>
+		<e><p><l>কামনা<s n="n"/></l><r>wish<s n="n"/></r></p></e>
+		<e><p><l>উপায়<s n="n"/></l><r>measure<s n="n"/></r></p></e>
+		<e><p><l>উন্নতি<s n="n"/></l><r>rise<s n="n"/></r></p></e>
+		<e><p><l>প্ৰগতি<s n="n"/></l><r>prospore<s n="n"/></r></p></e>
+		<e><p><l>সান্ত্বনা<s n="n"/></l><r>console<s n="n"/></r></p></e>
+		<e><p><l>চিত্ৰ<s n="n"/></l><r>picture<s n="n"/></r></p></e>
+		<e><p><l>ছবি<s n="n"/></l><r>picture<s n="n"/></r></p></e>
+		<e><p><l>তাৰিখ<s n="n"/></l><r>date<s n="n"/></r></p></e>
+		<e><p><l>তিথি<s n="n"/></l><r><s n="n"/></r></p></e>
+		<e><p><l>প্ৰশংসা<s n="n"/></l><r>praise<s n="n"/></r></p></e>
+		<e><p><l>পখিলা<s n="n"/></l><r>butterfly<s n="n"/></r></p></e>
+		<e><p><l>ধূমুহা<s n="n"/></l><r>storm<s n="n"/></r></p></e>
+		<e><p><l>ধূমুহা-বতাহ<s n="n"/></l><r>storm<s n="n"/></r></p></e>
+		<e><p><l>ভাঁটৌ<s n="n"/></l><r>parrot<s n="n"/></r></p></e>
+		<e><p><l>উপহাৰ<s n="n"/></l><r>gift<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>স্বাস্থ্যৱান<s n="adj"/></l><r>healthy<s n="adj"/></r></p></e>
+		<e><p><l>শকত-আৱত<s n="adj"/></l><r><s n="adj"/></r></p></e>
+		<e><p><l>তিনি<s n="adj"/></l><r>three<s n="adj"/></r></p></e>
+		<e><p><l>তৃতীয়<s n="adj"/></l><r>third<s n="adj"/></r></p></e>
+		<e><p><l>চোকা<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
+		<e><p><l>তেৰ<s n="adj"/></l><r>thirteen<s n="adj"/></r></p></e>
+		<e><p><l>সাজু<s n="adj"/></l><r>ready<s n="adj"/></r></p></e>
+		<e><p><l>তৈয়াৰ<s n="adj"/></l><r>ready<s n="adj"/></r></p></e>
+
+	<!-- pronouns -->
+		<e><p><l>তুমি<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+		<e><p><l>তোমাৰ<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+		<e><p><l>তোমাক<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+		<e><p><l>তোক<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+		<e><p><l>তই<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+		<e><p><l>তোৰ<s n="pn"/></l><r>you<s n="pn"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>সাঁতোৰ<s n="vb"/></l><r>swim<s n="vb"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>লৈকে<s n="ot"/></l><r>till<s n="ot"/></r></p></e>
+		<e><p><l>তেতিয়া<s n="ot"/></l><r>then<s n="ot"/></r></p></e>
+		<e><p><l>তেতিয়াহ'লে<s n="ot"/></l><r>so<s n="ot"/></r></p></e>
+		<e><p><l>তেনেহ'লে<s n="ot"/></l><r>then<s n="ot"/></r></p></e>
+		<e><p><l>ফালে<s n="ot"/></l><r>thatside<s n="ot"/></r></p></e>
+		<e><p><l>পিনে<s n="ot"/></l><r>that side<s n="ot"/></r></p></e>
+		<e><p><l>প্ৰকাৰ<s n="ot"/></l><r>type<s n="ot"/></r></p></e>
+		<e><p><l>দৰে<s n="ot"/></l><r>likethat<s n="ot"/></r></p></e>
+
+	<!-- थ -->
+	<!-- nouns -->
+		<e><p><l>ভাগৰ<s n="n"/></l><r>tired<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>অলপ<s n="adj"/></l><r>few<s n="adj"/></r></p></e>
+		<e><p><l>কম<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
+		<e><p><l>অকণমান<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
+
+	<!-- द -->
+	<!-- nouns -->
+		<e><p><l>দুখ<s n="n"/></l><r>sorrow<s n="n"/></r></p></e>
+		<e><p><l>দৰ্জা<s n="n"/></l><r>door<s n="n"/></r></p></e>
+		<e><p><l>চহী<s n="n"/></l><r>signature<s n="n"/></r></p></e>
+		<e><p><l>দাঁত<s n="n"/></l><r>teeth<s n="n"/></r></p></e>
+		<e><p><l>ককাদেউতা<s n="n"/></l><r>grandfather<s n="n"/></r></p></e>
+		<e><p><l>আইতা<s n="n"/></l><r>grandmother<s n="n"/></r></p></e>
+		<e><p><l>বাইদেউ<s n="n"/></l><r>sister<s n="n"/></r></p></e>
+		<e><p><l>আমনি<s n="n"/></l><r>disturb<s n="n"/></r></p></e>
+		<e><p><l>দিন<s n="n"/></l><r>day<s n="n"/></r></p></e>
+		<e><p><l>দেৱালী<s n="n"/></l><r>diwali<s n="n"/></r></p></e>
+		<e><p><l>দোকান<s n="n"/></l><r>shop<s n="n"/></r></p></e>
+		<e><p><l>দুপৰীয়া<s n="n"/></l><r>noon<s n="n"/></r></p></e>
+		<e><p><l>কইনা<s n="n"/></l><r>bride<s n="n"/></r></p></e>
+		<e><p><l>দৰা<s n="n"/></l><r>groom<s n="n"/></r></p></e>
+		<e><p><l>শত্ৰু<s n="n"/></l><r>enemy<s n="n"/></r></p></e>
+		<e><p><l>গাখীৰ<s n="n"/></l><r>milk<s n="n"/></r></p></e>
+		<e><p><l>দূৰত্ব<s n="n"/></l><r>distance<s n="n"/></r></p></e>
+		<e><p><l>দেশ<s n="n"/></l><r>country<s n="n"/></r></p></e>
+		<e><p><l>বন্ধু<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+		<e><p><l>বন্ধুত্ব<s n="n"/></l><r>friendship<s n="n"/></r></p></e>
+		<e><p><l>মিত্ৰতা<s n="n"/></l><r>friendship<s n="n"/></r></p></e>
+		<e><p><l>সম্পত্তি<s n="n"/></l><r>property<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>দূৰ<s n="adj"/></l><r>far<s n="adj"/></r></p></e>
+		<e><p><l>দহ<s n="adj"/></l><r>ten<s n="adj"/></r></p></e>
+		<e><p><l>দুষ্ট<s n="adj"/></l><r>naughty<s n="adj"/></r></p></e>
+		<e><p><l>সোঁ<s n="adj"/></l><r>right<s n="adj"/></r></p></e>
+		<e><p><l>দুই<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
+		<e><p><l>দ্বিতীয়<s n="adj"/></l><r>second<s n="adj"/></r></p></e>
+		<e><p><l>বেলেগ<s n="adj"/></l><r>separate<s n="adj"/></r></p></e>
+		<e><p><l>দেৰি<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
+		<e><p><l>পলম<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>হেঁচা<b/>খা<s n="vb"/></l><r>push<s n="vb"/></r></p></e>
+		<e><p><l>হেঁচ<s n="vb"/></l><r>push<s n="vb"/></r></p></e>
+		<e><p><l>দেখ<s n="vb"/></l><r>look<s n="vb"/></r></p></e>
+		<e><p><l>চা<s n="vb"/></l><r>see<s n="vb"/></r></p></e>
+		<e><p><l>দৌৰ<s n="vb"/></l><r>run<s n="vb"/></r></p></e>
+
+	<!-- ध -->
+	<!-- nouns -->
+		<e><p><l>ধন<s n="n"/></l><r>wealth<s n="n"/></r></p></e>
+		<e><p><l>ধৰ্ম<s n="n"/></l><r>religion<s n="n"/></r></p></e>
+		<e><p><l>ধূলি<s n="n"/></l><r>dust<s n="n"/></r></p></e>
+		<e><p><l>ধ্যান<s n="n"/></l><r>meditation<s n="n"/></r></p></e>
+		<e><p><l>ধৰণি<s n="n"/></l><r>earth<s n="n"/></r></p></e>
+		<e><p><l>ৰচি<s n="n"/></l><r>rope<s n="n"/></r></p></e>
+		<e><p><l>ধোবা<s n="n"/></l><r>laundryman<s n="n"/></r></p></e>
+		<e><p><l>ধন্যবাদ<s n="n"/></l><r>thank you><s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>ধনী<s n="adj"/></l><r>rich<s n="adj"/></r></p></e>
+		<e><p><l>ধাৰ্মিক<s n="adj"/></l><r>religious<s n="adj"/></r></p></e>
+
+	<!-- न -->
+	<!-- nouns -->
+		<e><p><l>নদী<s n="n"/></l><r>river<s n="n"/></r></p></e>
+		<e><p><l>চাকৰি<s n="n"/></l><r>job<s n="n"/></r></p></e>
+		<e><p><l>নিমখ<s n="n"/></l><r>salt<s n="n"/></r></p></e>
+		<e><p><l>নকল<s n="n"/></l><r>duplicate<s n="n"/></r></p></e>
+		<e><p><l>নাক<s n="n"/></l><r>nose<s n="n"/></r></p></e>
+		<e><p><l>নাম<s n="n"/></l><r>name<s n="n"/></r></p></e>
+		<e><p><l>নাৰিকল<s n="n"/></l><r>coconut<s n="n"/></r></p></e>
+		<e><p><l>নেতা<s n="n"/></l><r>minister<s n="n"/></r></p></e>
+		<e><p><l>নিয়ম<s n="n"/></l><r>rule<s n="n"/></r></p></e>
+		<e><p><l>নগৰ<s n="n"/></l><r>city<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>নতুন<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
+		<e><p><l>কোমল<s n="adj"/></l><r>soft<s n="adj"/></r></p></e>
+		<e><p><l>ব্যক্তিগত<s n="adj"/></l><r>personal<s n="adj"/></r></p></e>
+		<e><p><l>নীলা<s n="adj"/></l><r>blue<s n="adj"/></r></p></e>
+		<e><p><l>ন<s n="adj"/></l><r>nine<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>গা<b/>ধু<s n="vb"/></l><r>bath<s n="vb"/></r></p></e>
+		<e><p><l>ওলা<s n="vb"/></l><r>leave<s n="vb"/></r></p></e>
+		<e><p><l>উলিয়া<s n="vb"/></l><r>take out<s n="vb"/></r></p></e>
+
+	<!-- प -->
+	<!-- nouns -->
+		<e><p><l>পত্নী<s n="n"/></l><r>wife<s n="n"/></r></p></e>
+		<e><p><l>প্ৰাণী<s n="n"/></l><r><s n="n"/></r></p></e>
+		<e><p><l>পৰিচয়<s n="n"/></l><r>introduction<s n="n"/></r></p></e>
+		<e><p><l>প্ৰাণ<s n="n"/></l><r>life<s n="n"/></r></p></e>
+		<e><p><l>পৰীক্ষা<s n="n"/></l><r>examination<s n="n"/></r></p></e>
+		<e><p><l>পৰীক্ষক<s n="n"/></l><r>examiner<s n="n"/></r></p></e>
+		<e><p><l>পৃথিৱী<s n="n"/></l><r>earth<s n="n"/></r></p></e>
+		<e><p><l>প্ৰভাৱ<s n="n"/></l><r>influence<s n="n"/></r></p></e>
+		<e><p><l>ঠিকনা<s n="n"/></l><r>address<s n="n"/></r></p></e>
+		<e><p><l>পাত<s n="n"/></l><r>leaf<s n="n"/></r></p></e>
+		<e><p><l>পত্ৰ<s n="n"/></l><r>letter<s n="n"/></r></p></e>
+		<e><p><l>পৃষ্ঠা<s n="n"/></l><r>page<s n="n"/></r></p></e>
+		<e><p><l>পৰহি<s n="n"/></l><r>day after tomorrow<s n="n"/></r></p></e>
+		<e><p><l>পৰী<s n="n"/></l><r>angel<s n="n"/></r></p></e>
+		<e><p><l>ভৰি<s n="n"/></l><r>leg<s n="n"/></r></p></e>
+		<e><p><l>পাণ<s n="n"/></l><r>beetleleaf<s n="n"/></r></p></e>
+		<e><p><l>পানী<s n="n"/></l><r>water<s n="n"/></r></p></e>
+		<e><p><l>গছ<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+		<e><p><l>পইচা<s n="n"/></l><r>money<s n="n"/></r></p></e>
+		<e><p><l>নাতি<s n="n"/></l><r>grand-son<s n="n"/></r></p></e>
+		<e><p><l>নাতিনী<s n="n"/></l><r>grand-daughter<s n="n"/></r></p></e>
+		<e><p><l>মৰম<s n="n"/></l><r>love<s n="n"/></r></p></e>
+		<e><p><l>স্নেহ<s n="n"/></l><r>love<s n="n"/></r></p></e>
+		<e><p><l>পিয়াহ<s n="n"/></l><r>thirsty<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>পকা<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>	
+		<e><p><l>পঞ্চাশ<s n="adj"/></l><r>fifty<s n="adj"/></r></p></e>	
+		<e><p><l>পাতল<s n="adj"/></l><r>light<s n="adj"/></r></p></e>	
+		<e><p><l>প্ৰথম<s n="adj"/></l><r>first<s n="adj"/></r></p></e>	
+		<e><p><l>পাঁচ<s n="adj"/></l><r>five<s n="adj"/></r></p></e>	
+		<e><p><l>হালধীয়া<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>	
+
+	<!-- verbs -->
+		<e><p><l>ধৰ<s n="vb"/></l><r>catch<s n="vb"/></r></p></e>
+		<e><p><l>ৰান্ধ<s n="vb"/></l><r>cook<s n="vb"/></r></p></e>
+		<e><p><l>পঢ়<s n="vb"/></l><r>read<s n="vb"/></r></p></e>
+		<e><p><l>চিনি<b/>পা<s n="vb"/></l><r>know<s n="vb"/></r></p></e>
+		<e><p><l>পিন্ধ<s n="vb"/></l><r>wear<s n="vb"/></r></p></e>
+	<!-- others -->
+		<e><p><l>প্ৰথমে<s n="ot"/></l><r>first<s n="ot"/></r></p></e>
+		<e><p><l>আগতে<s n="adj"/></l><r>before<s n="adj"/></r></p></e>
+		<e><p><l>প্ৰথমতে<s n="ot"/></l><r>first<s n="ot"/></r></p></e>
+
+	<!-- फ -->
+	<!-- nouns -->
+		<e><p><l>ফুল<s n="n"/></l><r>flower<s n="n"/></r></p></e>
+		<e><p><l>ফল<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
+		<e><p><l>লাভ<s n="n"/></l><r>profit<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ফাট<s n="vb"/></l><r>crack<s n="vb"/></r></p></e>
+
+	<!-- ब -->
+	<!-- nouns -->
+		<e><p><l>বছৰ<s n="n"/></l><r>year<s n="n"/></r></p></e>
+		<e><p><l>ভনী<s n="n"/></l><r>sister<s n="n"/></r></p></e>
+		<e><p><l>কথা<s n="n"/></l><r>speak<s n="n"/></r></p></e>
+		<e><p><l>বাদাম<s n="n"/></l><r>peanut<s n="n"/></r></p></e>
+		<e><p><l>দেউতা<s n="n"/></l><r>father<s n="n"/></r></p></e>
+		<e><p><l>বৰষুণ<s n="n"/></l><r>rain<s n="n"/></r></p></e>
+		<e><p><l>চুলি<s n="n"/></l><r>hair<s n="n"/></r></p></e>
+		<e><p><l>ল'ৰা-ছোৱালী<s n="n"/></l><r>children<s n="n"/></r></p></e>
+		<e><p><l>বিছনা<s n="n"/></l><r>bed<s n="n"/></r></p></e>
+		<e><p><l>বুঢ়া<s n="n"/></l><r>oldman<s n="n"/></r></p></e>
+		<e><p><l>বুঢ়ী<s n="n"/></l><r>oldlady<s n="n"/></r></p></e>
+		<e><p><l>পুত্ৰ<s n="n"/></l><r>son<s n="n"/></r></p></e>
+		<e><p><l>পুত্ৰী<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>ডাঙৰ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+		<e><p><l>বেয়া<s n="adj"/></l><r>bad<s n="adj"/></r></p></e>
+		<e><p><l>বহুত<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
+		<e><p><l>বাওঁ<s n="adj"/></l><r>left<s n="adj"/></r></p></e>
+		<e><p><l>বাৰ<s n="adj"/></l><r>twelve<b/>में<s n="adj"/></r></p></e>
+		<e><p><l>বাহিৰত<s n="adj"/></l><r>outside<s n="adj"/></r></p></e>
+		<e><p><l>একেবাৰে<s n="adj"/></l><r>totally<s n="adj"/></r></p></e>
+		<e><p><l>বিশ<s n="adj"/></l><r>twenty<s n="adj"/></r></p></e>
+		<e><p><l>বত্ৰিশ<s n="adj"/></l><r>thirty-two<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>বাজ<s n="vb"/></l><r>बज<s n="vb"/></r></p></e>
+		<e><p><l>বজা<s n="vb"/></l><r>बजा<s n="vb"/></r></p></e>
+		<e><p><l>বনা<s n="vb"/></l><r>make<s n="vb"/></r></p></e>
+		<e><p><l>ক'<s n="vb"/></l><r>tell<s n="vb"/></r></p></e>
+		<e><p><l>বহ<s n="vb"/></l><r>sit<s n="vb"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>পিছত<s n="ot"/></l><r>later<b/>on<s n="ot"/></r></p></e>
+		<e><p><l>বিষয়ে<s n="ot"/></l><r><b/>में<s n="ot"/></r></p></e>
+		<e><p><l>সম্বন্ধে<s n="ot"/></l><r>बारे<b/>में<s n="ot"/></r></p></e>
+
+	<!-- भ -->
+	<!-- nouns -->
+		<e><p><l>ভয়<s n="n"/></l><r>fear<s n="n"/></r></p></e>
+		<e><p><l>ভাই<s n="n"/></l><r>brother<s n="n"/></r></p></e>
+		<e><p><l>ভাইটি<s n="n"/></l><r>yonger-brother<s n="n"/></r></p></e>
+		<e><p><l>ভায়েক<s n="n"/></l><r>brother<s n="n"/></r></p></e>
+		<e><p><l>দাদা<s n="n"/></l><r>elder-brother<s n="n"/></r></p></e>
+		<e><p><l>ভাগ্য<s n="n"/></l><r>luck<s n="n"/></r></p></e>
+		<e><p><l>ভোক<s n="n"/></l><r>hunger<s n="n"/></r></p></e>
+
+	<!-- म -->
+	<!-- nouns -->
+		<e><p><l>মন<s n="n"/></l><r>mind<s n="n"/></r></p></e>
+		<e><p><l>মহাৰাজ<s n="n"/></l><r>king<s n="n"/></r></p></e>
+		<e><p><l>মহাৰজা<s n="n"/></l><r>king<s n="n"/></r></p></e>
+		<e><p><l>মুখ<s n="n"/></l><r>face<s n="n"/></r></p></e>
+		<e><p><l>মানবতা<s n="n"/></l><r>humanity<s n="n"/></r></p></e>
+		<e><p><l>মাছ<s n="n"/></l><r>fish<s n="n"/></r></p></e>
+		<e><p><l>সহায়<s n="n"/></l><r>help<s n="n"/></r></p></e>
+		<e><p><l>মাহ<s n="n"/></l><r>month<s n="n"/></r></p></e>
+		<e><p><l>মা<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+		<e><p><l>আই<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+		<e><p><l>মাতৃ<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+		<e><p><l>মাঘ<s n="n"/></l><r>माघ<s n="n"/></r></p></e>
+		<e><p><l>ক্ষমা<s n="n"/></l><r>forgive<s n="n"/></r></p></e>
+		<e><p><l>মামা<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
+		<e><p><l>মোমাই<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
+		<e><p><l>মাহী<s n="n"/></l><r>aunty<s n="n"/></r></p></e>
+		<e><p><l>মাটি<s n="n"/></l><r>land<s n="n"/></r></p></e>
+		<e><p><l>আলহী<s n="n"/></l><r>guest<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>মূৰ্খ<s n="adj"/></l><r>fool<s n="adj"/></r></p></e>
+		<e><p><l>শক্তিশালী<s n="adj"/></l><r>strong<s n="adj"/></r></p></e>
+		<e><p><l>মাইকী<s n="adj"/></l><r>lady<s n="adj"/></r></p></e>
+		<e><p><l>মিঠা<s n="adj"/></l><r>sweet<s n="adj"/></r></p></e>
+
+	<!-- pronouns -->
+		<e><p><l>মই<s n="pn"/></l><r>I<s n="pn"/></r></p></e>
+		<e><p><l>মোক<s n="pn"/></l><r>me<s n="pn"/></r></p></e>
+		<e><p><l>মোৰ<s n="pn"/></l><r>my<s n="pn"/></r></p></e>
+
+	<!-- य -->
+	<!-- nouns -->
+		<e><p><l>যুদ্ধ<s n="n"/></l><r>war<s n="n"/></r></p></e>
+
+	<!-- pronouns -->
+		<e><p><l>এই<s n="pn"/></l><r>this<s n="pn"/></r></p></e>
+		<e><p><l>এইটো<s n="pn"/></l><r>this<s n="pn"/></r></p></e>
+		<e><p><l>এয়া<s n="pn"/></l><r>thisone<s n="pn"/></r></p></e>
+		<e><p><l>এইটোও<s n="pn"/></l><r>यह<b/>भी<s n="pn"/></r></p></e>
+		<e><p><l>এইবোৰ<s n="pn"/></l><r>these<s n="pn"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>ইয়াত<s n="ot"/></l><r>here<s n="ot"/></r></p></e>
+		<e><p><l>ইয়াতে<s n="ot"/></l><r>here<s n="ot"/></r></p></e>
+		<e><p><l>এই<b/>ঠাইতে<s n="ot"/></l><r>this place<s n="ot"/></r></p></e>
+		<e><p><l>বা<s n="ot"/></l><r>or<s n="ot"/></r></p></e>
+		<e><p><l>অথবা<s n="ot"/></l><r>or<s n="ot"/></r></p></e>
+		<e><p><l>নাইবা<s n="ot"/></l><r>else<s n="ot"/></r></p></e>
+		<e><p><l>এই<b/>ঠাইত<s n="ot"/></l><r>this place<s n="ot"/></r></p></e>
+		<e><p><l>এনেয়ে<s n="ot"/></l><r>यूँही<s n="ot"/></r></p></e>
+		<e><p><l>এনেই<s n="ot"/></l><r>यूँही<s n="ot"/></r></p></e>
+
+	<!-- र -->
+	<!-- nouns -->
+		<e><p><l>ৰঙ<s n="n"/></l><r>colour<s n="n"/></r></p></e>
+		<e><p><l>ৰক্ষা<s n="n"/></l><r>protect<s n="n"/></r></p></e>
+		<e><p><l>ৰাতি<s n="n"/></l><r>night<s n="n"/></r></p></e>
+		<e><p><l>ৰাস্তা<s n="n"/></l><r>road<s n="n"/></r></p></e>
+		<e><p><l>বাট<s n="n"/></l><r>way<s n="n"/></r></p></e>
+		<e><p><l>পথ<s n="n"/></l><r>way<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ৰ'<s n="vb"/></l><r>wait<s n="vb"/></r></p></e>
+
+
+	<!-- ल -->
+	<!-- nouns -->
+		<e><p><l>ল'ৰা<s n="n"/></l><r>boy<s n="n"/></r></p></e>
+		<e><p><l>ছোৱালী<s n="n"/></l><r>girl<s n="n"/></r></p></e>
+		<e><p><l>লোভ<s n="n"/></l><r>greedy<s n="n"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>ল'<s n="vb"/></l><r>take<s n="vb"/></r></p></e>
+		<e><p><l>লাগ<s n="vb"/></l><r>लग<s n="vb"/></r></p></e>
+		<e><p><l>লিখ<s n="vb"/></l><r>write<s n="vb"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>কাৰণে<s n="ot"/></l><r>so<s n="ot"/></r></p></e>
+		<e><p><l>হেতু<s n="ot"/></l><r>because<s n="ot"/></r></p></e>
+
+	<!-- व -->
+	<!-- nouns -->
+		<e><p><l>ব্যৱসায়<s n="n"/></l><r>business<s n="n"/></r></p></e>
+		<e><p><l>ব্যৱহাৰ<s n="n"/></l><r>behavior<s n="n"/></r></p></e>
+		<e><p><l>বিশ্বাস<s n="n"/></l><r>believe<s n="n"/></r></p></e>
+		<e><p><l>বিদ্যালয়<s n="n"/></l><r>school<s n="n"/></r></p></e>
+
+	<!-- pronouns -->
+		<e><p><l>সি<s n="pn"/></l><r>he<s n="pn"/></r></p></e>
+		<e><p><l>তাই<s n="pn"/></l><r>she<s n="pn"/></r></p></e>
+		<e><p><l>তেখেত<s n="pn"/></l><r>he<s n="pn"/></r></p></e>
+		<e><p><l>তেওঁ<s n="pn"/></l><r>he<s n="pn"/></r></p></e>
+		<e><p><l>তেওঁলোক<s n="pn"/></l><r>they<s n="pn"/></r></p></e>
+		<e><p><l>সিহঁত<s n="pn"/></l><r>they<s n="pn"/></r></p></e>
+		<e><p><l>তেখেতসকল<s n="pn"/></l><r>they<s n="pn"/></r></p></e>
+		<e><p><l>সেইসকল<s n="pn"/></l><r>they<s n="pn"/></r></p></e>
+		<e><p><l>সিয়েই<s n="pn"/></l><r>he<s n="pn"/></r></p></e>
+		<e><p><l>তাইয়েই<s n="pn"/></l><r>she<s n="pn"/></r></p></e>
+		<e><p><l>তেওঁৱেই<s n="pn"/></l><r>he<s n="pn"/></r></p></e>
+		<e><p><l>সেইটোৱেই<s n="pn"/></l><r>that<s n="pn"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>বাঃ<s n="ot"/></l><r>वाह<s n="ot"/></r></p></e>
+		<e><p><l>তাত<s n="ot"/></l><r>वहाँ<s n="ot"/></r></p></e>
+		<e><p><l>তালৈ<s n="ot"/></l><r>वहाँ<s n="ot"/></r></p></e>
+		<e><p><l>তাতে<s n="ot"/></l><r>वहीं<s n="ot"/></r></p></e>
+		<e><p><l>তালৈকে<s n="ot"/></l><r>वहीं<s n="ot"/></r></p></e>
+		<e><p><l>সেইদৰে<s n="ot"/></l><r>वैसे<s n="ot"/></r></p></e>
+		<e><p><l>তেনেদৰে<s n="ot"/></l><r>वैसे<s n="ot"/></r></p></e>
+		<e><p><l>তেনেকৈ<s n="ot"/></l><r>वैसे<s n="ot"/></r></p></e>
+		<e><p><l>তেনেকুৱা<s n="ot"/></l><r>वैसा<s n="ot"/></r></p></e>
+		<e><p><l>তেনে<s n="ot"/></l><r>वैसा<s n="ot"/></r></p></e>
+
+	<!-- श -->
+	<!-- nouns -->
+		<e><p><l>লাজ<s n="n"/></l><r>shy<s n="n"/></r></p></e>
+		<e><p><l>চহৰ<s n="n"/></l><r>town<s n="n"/></r></p></e>
+		<e><p><l>সন্ধিয়া<s n="n"/></l><r>evening<s n="n"/></r></p></e>
+		<e><p><l>আবেলি<s n="n"/></l><r>enening<s n="n"/></r></p></e>
+		<e><p><l>গধূলি<s n="n"/></l><r>evening<s n="n"/></r></p></e>
+		<e><p><l>বাঘ<s n="n"/></l><r>tiger<s n="n"/></r></p></e>
+		<e><p><l>সিংহ<s n="n"/></l><r>lion<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>শান্তি<s n="adj"/></l><r>peace<s n="adj"/></r></p></e>	
+		<e><p><l>শূন্য<s n="adj"/></l><r>blank<s n="adj"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>বোধহয়<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
+		<e><p><l>হয়তো<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
+		<e><p><l>কদাচিৎ<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
+		<e><p><l>শ্ৰীমান<s n="ot"/></l><r>mr<s n="ot"/></r></p></e>
+		<e><p><l>শ্ৰীযুত<s n="ot"/></l><r>mr<s n="ot"/></r></p></e>
+		<e><p><l>শ্ৰীমতী<s n="ot"/></l><r>miss<s n="ot"/></r></p></e>
+		<e><p><l>শ্ৰী<s n="ot"/></l><r>shree<s n="ot"/></r></p></e>
+
+	<!-- स -->
+	<!-- nouns -->
+		<e><p><l>সময়<s n="n"/></l><r>time<s n="n"/></r></p></e>
+		<e><p><l>সপোন<s n="n"/></l><r>dream<s n="n"/></r></p></e>
+		<e><p><l>প্ৰশ্ন<s n="n"/></l><r>question<s n="n"/></r></p></e>
+		<e><p><l>লগৰীয়া<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+		<e><p><l>ৰাতিপুৱা<s n="n"/></l><r>morning<s n="n"/></r></p></e>
+		<e><p><l>আপেল<s n="n"/></l><r>apple<s n="n"/></r></p></e>
+		<e><p><l>সোণ<s n="n"/></l><r>gold<s n="n"/></r></p></e>
+		<e><p><l>উশাহ<s n="n"/></l><r> <s n="n"/></r></p></e>
+		<e><p><l>নিশাহ<s n="n"/></l><r>साँस<s n="n"/></r></p></e>
+		<e><p><l>উশাহ-নিশাহ<s n="n"/></l><r>breath<s n="n"/></r></p></e>
+		<e><p><l>সাহস<s n="n"/></l><r>brave<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>সাধাৰণ<s n="adj"/></l><r>general<s n="adj"/></r></p></e>
+		<e><p><l>সুখ<s n="adj"/></l><r>happiness<s n="adj"/></r></p></e>	
+		<e><p><l>বগা<s n="adj"/></l><r>white<s n="adj"/></r></p></e>	
+		<e><p><l>সুন্দৰ<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+		<e><p><l>অকল<s n="adj"/></l><r>only<s n="adj"/></r></p></e>
+		<e><p><l>অকলে<s n="adj"/></l><r>alone<s n="adj"/></r></p></e>
+		<e><p><l>সাৱধান<s n="adj"/></l><r>carefull<s n="adj"/></r></p></e>
+		<e><p><l>সঁচা<s n="adj"/></l><r>true<s n="adj"/></r></p></e>
+		<e><p><l>সত্য<s n="adj"/></l><r>truth<s n="adj"/></r></p></e>
+		<e><p><l>সফল<s n="adj"/></l><r>success<s n="adj"/></r></p></e>
+		<e><p><l>বুধিয়ক<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
+		<e><p><l>সাত<s n="adj"/></l><r>seven<s n="adj"/></r></p></e>
+		<e><p><l>লগত<s n="adj"/></l><r>with<s n="adj"/></r></p></e>
+		<e><p><l>এশ<s n="adj"/></l><r>one-hundred<s n="adj"/></r></p></e>
+		<e><p><l>শ<s n="adj"/></l><r>hundred<s n="adj"/></r></p></e>
+		<e><p><l>সুস্থ<s n="adj"/></l><r>health<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>শু<s n="vb"/></l><r>sleep<s n="vb"/></r></p></e>
+		<e><p><l>চিন্তা<b/>কৰ<s n="vb"/></l><r>think<s n="vb"/></r></p></e>
+
+	<!-- ह -->
+	<!-- nouns -->
+		<e><p><l>বতাহ<s n="n"/></l><r>wind<s n="n"/></r></p></e>
+		<e><p><l>হৃদয়<s n="n"/></l><r>heart<s n="n"/></r></p></e>
+		<e><p><l>হাঁহি<s n="n"/></l><r>laugh<s n="n"/></r></p></e>
+		<e><p><l>সপ্তাহ<s n="n"/></l><r>week<s n="n"/></r></p></e>
+		<e><p><l>হাত<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+		<e><p><l>হাতী<s n="n"/></l><r>elephant<s n="n"/></r></p></e>
+		<e><p><l>হিন্দু<s n="n"/></l><r>hindu<s n="n"/></r></p></e>
+
+	<!-- adjectives -->
+		<e><p><l>হাঁহি-মুখীয়া<s n="adj"/></l><r>smily<s n="adj"/></r></p></e>
+		<e><p><l>হেজাৰ<s n="adj"/></l><r>thousand<s n="adj"/></r></p></e>
+		<e><p><l>সেউজীয়া<s n="adj"/></l><r>green<s n="adj"/></r></p></e>
+		<e><p><l>হিন্দী<s n="adj"/></l><r>hindi<s n="adj"/></r></p></e>
+
+	<!-- verbs -->
+		<e><p><l>হাঁহ<s n="vb"/></l><r>laugh<s n="vb"/></r></p></e>
+		<e><p><l>হয়<s n="vb"/></l><r>yes<s n="vb"/></r></p></e>
+		<e><p><l>লাগে<s n="vb"/></l><r>need<s n="vb"/></r></p></e>
+		<e><p><l>হ'ল<s n="vb"/></l><r>हुवा<s n="vb"/></r></p></e>
+		<e><p><l>হ'ব<s n="vb"/></l><r>होगा<s n="vb"/></r></p></e>
+		<e><p><l>হৈ<b/>গ'ল<s n="vb"/></l><r>हो<b/>गया<s n="vb"/></r></p></e>
+		<e><p><l>হৈ<b/>যাব<s n="vb"/></l><r>will<b/>be<s n="vb"/></r></p></e>
+		<e><p><l>হৈছিল<s n="vb"/></l><r>happened<s n="vb"/></r></p></e>
+		<e><p><l>হ'ম<s n="vb"/></l><r>become<s n="vb"/></r></p></e>
+		<e><p><l>ভাল<b/>পাওঁ<s n="vb"/></l><r>like<s n="vb"/></r></p></e>
+
+	<!-- pronouns -->
+		<e><p><l>আমি<s n="pn"/></l><r>we<s n="pn"/></r></p></e>
+		<e><p><l>আমাৰ<s n="pn"/></l><r>our<s n="pn"/></r></p></e>
+		<e><p><l>আমাক<s n="pn"/></l><r>us<s n="pn"/></r></p></e>
+
+	<!-- others -->
+		<e><p><l>সদায়<s n="ot"/></l><r>daily<s n="ot"/></r></p></e>
+
+	</section>    
+</dictionary>
