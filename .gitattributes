@@ -1,6 +1,7 @@
 * text=auto !eol
 /Makefile -text
 /apertium-asm-eng.asm-eng.dix -text
+/apertium-asm-eng.asm-eng.lrx -text
 /apertium-asm-eng.asm-eng.t1x -text
 /apertium-asm-eng.asm-eng.t2x -text
 /apertium-asm-eng.asm-eng.t3x -text
