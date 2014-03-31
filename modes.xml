@@ -142,8 +142,8 @@
         <file name="asm-eng.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-asm-eng.asm-eng.t4x"/>
-        <file name="asm-eng.t4x.bin"/>
+        <file name="apertium-asm-eng.asm-eng.t3x"/>
+        <file name="asm-eng.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -173,8 +173,8 @@
         <file name="asm-eng.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-asm-eng.asm-eng.t4x"/>
-        <file name="asm-eng.t4x.bin"/>
+        <file name="apertium-asm-eng.asm-eng.t3x"/>
+        <file name="asm-eng.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="asm-eng.autogen.bin"/>
@@ -211,8 +211,8 @@
         <file name="asm-eng.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-asm-eng.asm-eng.t4x"/>
-        <file name="asm-eng.t4x.bin"/>
+        <file name="apertium-asm-eng.asm-eng.t3x"/>
+        <file name="asm-eng.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="asm-eng.autogen.bin"/>
