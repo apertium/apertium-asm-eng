@@ -1,5 +1,10 @@
 * text=auto !eol
-/Makefile -text
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-asm-eng.asm-eng.dix -text
 /apertium-asm-eng.asm-eng.lrx -text
 /apertium-asm-eng.asm-eng.t1x -text
@@ -7,4 +12,6 @@
 /apertium-asm-eng.asm-eng.t3x -text
 /apertium-asm-eng.eng.dix -text
 /apertium-asm-eng.post-eng.dix -text
+/autogen.sh -text
+/configure.ac -text
 /modes.xml -text
