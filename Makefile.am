@@ -15,6 +15,7 @@ BASENAME=apertium-$(PREFIX1)
 TARGETS_COMMON = \
      $(PREFIX1).automorf.bin \
      $(PREFIX1).autolex.bin \
+     $(PREFIX1).rlx.bin \
      $(PREFIX1).autobil.bin \
      $(PREFIX1).autobil.bin $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX1).autogen.bin \
@@ -27,6 +28,9 @@ TARGETS_COMMON = \
 ###############################################################################
 ## Transducers, disambiguation rules, transfer
 ###############################################################################
+
+$(PREFIX1).rlx.bin: $(AP_LIB1)/apertium-$(LANG1).$(LANG1).rlx 
+	cg-comp $^ $@
 
 $(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim $^ $@
