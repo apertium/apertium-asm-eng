@@ -14,7 +14,7 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = \
      $(PREFIX1).automorf.bin \
-     $(PREFIX1).lrx.bin \
+     $(PREFIX1).autolex.bin \
      $(PREFIX1).autobil.bin \
      $(PREFIX1).autobil.bin $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX1).autogen.bin \
@@ -31,7 +31,7 @@ TARGETS_COMMON = \
 $(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim $^ $@
 
-$(PREFIX1).lrx.bin: $(BASENAME).$(PREFIX1).lrx
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp lr $< $@
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
