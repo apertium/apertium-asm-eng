@@ -13,3 +13,4 @@ all:
 	apertium-preprocess-transfer apertium-asm-eng.asm-eng.t3x asm-eng.t3x.bin
 
 	lrx-comp apertium-asm-eng.asm-eng.lrx asm-eng.autolex.bin
+	cg-comp $(AP_SRC1)/apertium-asm.asm.rlx asm-eng.rlx.bin
