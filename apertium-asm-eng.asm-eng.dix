@@ -12,8 +12,8 @@
 		<sdef n="n"/> 			<!-- noun -->
 			<sdef n="sg"/>		<!-- singular -->
 			<sdef n="pl"/>		<!-- plural -->
-			<sdef n="ma"/>		<!-- male -->
-			<sdef n="fe"/>		<!-- female -->
+			<sdef n="m"/>		<!-- male -->
+			<sdef n="f"/>		<!-- female -->
 			<sdef n="sub"/>		<!-- subject -->
 			<sdef n="obj"/>		<!-- object -->
 		<sdef n="prn"/> 			<!-- proper nouns -->
@@ -230,7 +230,7 @@
 		<e><p><l>স্বীকৃতি<s n="n"/></l><r>acceptance<s n="n"/></r></p></e>
 		<e><p><l>ইচ্ছা<s n="n"/></l><r>want<s n="n"/></r></p></e>
 		<e><p><l>অনুমতি<s n="n"/></l><r>pemission<s n="n"/></r></p></e>
-		<e><p><l>বুৰঞ্জী<s n="n"/></l><r>history<s n="n"/></r></p></e>
+		<e><p><l>বুৰঞ্জী<s n="n"/><s n="m"/></l><r>history<s n="n"/></r></p></e>
 		<e><p><l>সংযোগ<s n="n"/></l><r>coincidence<s n="n"/></r></p></e>
 		<e><p><l>পুৰস্কাৰ<s n="n"/></l><r>recompense<s n="n"/></r></p></e>
 		<e><p><l>অস্বীকাৰ<s n="n"/></l><r>refuse<s n="n"/></r></p></e>
