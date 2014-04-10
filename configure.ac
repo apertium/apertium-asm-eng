@@ -12,9 +12,7 @@ AM_INIT_AUTOMAKE([apertium-asm-eng], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.3 >= required_apertium_version)])
-PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttolbox_version, [], [PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox-3.3 >= required_lttolbox_version)])
-
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
 
 
 AC_PATH_PROG(LRXCOMP, lrx-comp, no)
