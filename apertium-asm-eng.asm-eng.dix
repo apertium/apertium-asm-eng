@@ -15,6 +15,8 @@
       <sdef n="sent"/>    <!-- plural -->
       <sdef n="ma"/>    <!-- male -->
       <sdef n="fe"/>    <!-- female -->
+      <sdef n="det"/>    <!-- female -->
+      <sdef n="ind"/>    <!-- female -->
       <sdef n="sub"/>    <!-- subject -->
       <sdef n="obj"/>    <!-- object -->
       <sdef n="top"/>    <!-- object -->
@@ -308,12 +310,12 @@
       <e><p><l>উপকাৰ<s n="n"/></l><r>oblige<s n="n"/></r></p></e>
 
   <!-- adjectives -->
-      <e><p><l>এক<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
-      <e><p><l>এটা<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
+      <e><p><l>এক<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e><p><l>এটা<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e><p><l>এগৰাকী<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e><p><l>এজনী<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e><p><l>এখন<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>  
       <e><p><l>এজন<s n="adj"/></l><r><s n="adj"/></r></p></e>
-      <e><p><l>এগৰাকী<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
-      <e><p><l>এজনী<s n="adj"/></l><r>a<s n="adj"/></r></p></e>
-      <e><p><l>এখন<s n="adj"/></l><r>a<s n="adj"/></r></p></e>  
 
   <!-- ऐ -->
   <!-- adjectives -->
@@ -1038,6 +1040,7 @@
   <!-- nouns -->
       <e><p><l>লাজ<s n="n"/></l><r>shy<s n="n"/></r></p></e>
       <e><p><l>চহৰ<s n="n"/></l><r>town<s n="n"/></r></p></e>
+      <e><p><l>চহৰ<s n="n"/></l><r>city<s n="n"/></r></p></e>
       <e><p><l>সন্ধিয়া<s n="n"/></l><r>evening<s n="n"/></r></p></e>
       <e><p><l>আবেলি<s n="n"/></l><r>enening<s n="n"/></r></p></e>
       <e><p><l>গধূলি<s n="n"/></l><r>evening<s n="n"/></r></p></e>
