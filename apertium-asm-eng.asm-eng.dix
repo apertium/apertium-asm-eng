@@ -12,6 +12,7 @@
     <sdef n="n"/>       <!-- noun -->
       <sdef n="sg"/>    <!-- singular -->
       <sdef n="pl"/>    <!-- plural -->
+      <sdef n="sent"/>    <!-- plural -->
       <sdef n="ma"/>    <!-- male -->
       <sdef n="fe"/>    <!-- female -->
       <sdef n="sub"/>    <!-- subject -->
@@ -1126,6 +1127,7 @@
 
   <!-- others -->
       <e><p><l>সদায়<s n="ot"/></l><r>daily<s n="ot"/></r></p></e>
+      <e><p><l>।<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
 
   </section>    
 </dictionary>
