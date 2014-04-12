@@ -15,3 +15,5 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+texts/test1.asm.txt -text svneol=unset#application/octet-stream
+texts/test1.eng.txt -text
