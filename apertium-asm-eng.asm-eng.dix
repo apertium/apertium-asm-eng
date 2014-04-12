@@ -17,6 +17,7 @@
       <sdef n="fe"/>    <!-- female -->
       <sdef n="sub"/>    <!-- subject -->
       <sdef n="obj"/>    <!-- object -->
+      <sdef n="top"/>    <!-- object -->
     <sdef n="np"/>       <!-- proper nouns -->
     <sdef n="en"/>       <!-- enclitics -->
         <sdef n="vblex"/>       <!-- verbs --> 
@@ -78,7 +79,7 @@
       <e><p><l>আমেৰিকা<s n="np"/></l><r>America<s n="np"/></r></p></e>
       <e><p><l>অৰ্জুন<s n="np"/></l><r>Arjun<s n="np"/></r></p></e>
       <e><p><l>অসম<s n="np"/></l><r>Assam<s n="np"/></r></p></e>
-      <e><p><l>ভাৰত<s n="np"/></l><r>India<s n="np"/></r></p></e>
+      <e><p><l>ভাৰত<s n="np"/><s n="top"/></l><r>India<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
       <e><p><l>শ্ৰীকৃষ্ণ<s n="np"/></l><r>Srikrishna<s n="np"/></r></p></e>
       <e><p><l>ইন্দ্ৰ<s n="np"/></l><r>Indra<s n="np"/></r></p></e>
       <e><p><l>কাশ্মীৰ<s n="np"/></l><r>Kashmir<s n="np"/></r></p></e>
