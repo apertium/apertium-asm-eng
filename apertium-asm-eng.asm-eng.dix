@@ -32,25 +32,25 @@
       <sdef n="p3"/>    <!-- third person -->
         <sdef n="adj"/>       <!-- adjectives --> 
     <sdef n="ot"/>      <!-- others -->
-    <sdef n="numeral"/>     <!-- numerals -->
+    <sdef n="num"/>     <!-- nums -->
     <sdef n="sep"/>       <!-- punctuation -->
 
     </sdefs>
   
   <section id="main" type="standard">
 
-      <e><p><l>০<s n="numeral"/></l><r>0<s n="numeral"/></r></p></e>
-      <e><p><l>১<s n="numeral"/></l><r>1<s n="numeral"/></r></p></e>
-      <e><p><l>২<s n="numeral"/></l><r>2<s n="numeral"/></r></p></e>
-      <e><p><l>৩<s n="numeral"/></l><r>3<s n="numeral"/></r></p></e>
-      <e><p><l>৪<s n="numeral"/></l><r>4<s n="numeral"/></r></p></e>
-      <e><p><l>৫<s n="numeral"/></l><r>5<s n="numeral"/></r></p></e>
-      <e><p><l>৬<s n="numeral"/></l><r>6<s n="numeral"/></r></p></e>
-      <e><p><l>৭<s n="numeral"/></l><r>7<s n="numeral"/></r></p></e>
-      <e><p><l>৮<s n="numeral"/></l><r>8<s n="numeral"/></r></p></e>
-      <e><p><l>৯<s n="numeral"/></l><r>9<s n="numeral"/></r></p></e>
-      <e><p><l>৬০০<s n="numeral"/></l><r>600<s n="numeral"/></r></p></e>
-      <e><p><l>৪২<s n="numeral"/></l><r>৪২<s n="numeral"/></r></p></e>
+      <e><p><l>০<s n="num"/></l><r>0<s n="num"/></r></p></e>
+      <e><p><l>১<s n="num"/></l><r>1<s n="num"/></r></p></e>
+      <e><p><l>২<s n="num"/></l><r>2<s n="num"/></r></p></e>
+      <e><p><l>৩<s n="num"/></l><r>3<s n="num"/></r></p></e>
+      <e><p><l>৪<s n="num"/></l><r>4<s n="num"/></r></p></e>
+      <e><p><l>৫<s n="num"/></l><r>5<s n="num"/></r></p></e>
+      <e><p><l>৬<s n="num"/></l><r>6<s n="num"/></r></p></e>
+      <e><p><l>৭<s n="num"/></l><r>7<s n="num"/></r></p></e>
+      <e><p><l>৮<s n="num"/></l><r>8<s n="num"/></r></p></e>
+      <e><p><l>৯<s n="num"/></l><r>9<s n="num"/></r></p></e>
+      <e><p><l>৬০০<s n="num"/></l><r>600<s n="num"/></r></p></e>
+      <e><p><l>৪২<s n="num"/></l><r>42<s n="num"/></r></p></e>
 
       <e><p><l>.<s n="sep"/></l><r>.<s n="sep"/></r></p></e>
       <e><p><l>\<s n="sep"/></l><r>\<s n="sep"/></r></p></e>
@@ -85,7 +85,7 @@
       <e><p><l>আমেৰিকা<s n="np"/></l><r>America<s n="np"/></r></p></e>
       <e><p><l>অৰ্জুন<s n="np"/></l><r>Arjun<s n="np"/></r></p></e>
       <e><p><l>অসম<s n="np"/></l><r>Assam<s n="np"/></r></p></e>
-      <e><p><l>ভাৰত<s n="np"/><s n="top"/></l><r>India<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+      <e><p><l>ভাৰত<s n="np"/></l><r>India<s n="np"/></r></p></e>
       <e><p><l>শ্ৰীকৃষ্ণ<s n="np"/></l><r>Srikrishna<s n="np"/></r></p></e>
       <e><p><l>ইন্দ্ৰ<s n="np"/></l><r>Indra<s n="np"/></r></p></e>
       <e><p><l>কাশ্মীৰ<s n="np"/></l><r>Kashmir<s n="np"/></r></p></e>
@@ -123,10 +123,9 @@
       <e><p><l>চাহাৰা<b/>এয়াৰলাইন্স<s n="np"/></l><r>Sahara<b/>Airlines<s n="np"/></r></p></e>
       <e><p><l>অন্ধ্ৰপ্ৰদেশ<s n="np"/></l><r>Andhra<b/>Pradesh<s n="np"/></r></p></e>
       <e><p><l>কেওলাদেও<b/>ঘন<b/>ৰাষ্ট্ৰীয়<b/>উদ্যান<s n="np"/></l><r>Keoladeo<b/>Ghana<b/>National<b/>Park<s n="np"/></r></p></e>
-      <e><p><l>জলপক্ষী<s n="np"/></l><r>water-bird<s n="np"/></r></p></e>
-      <e><p><l>অভয়াৰণ্য<s n="n"/></l><r>sanctuary<s n="n"/></r></p></e>
+      <e><p><l>জলপক্ষী<b/>অভয়াৰণ্য<s n="np"/></l><r>water-bird<b/>sanctuary<s n="np"/></r></p></e>
 	<e><p><l>আহোম<s n="np"/></l><r>Ahom<s n="np"/></r></p></e>
-	<e><p><l>শাসক<s n="np"/></l><r>ruler<s n="np"/></r></p></e>
+	<e><p><l>শাসক<b/>সকলে<s n="np"/></l><r>rulers<s n="np"/></r></p></e>
 	<e><p><l>কনক<b/>বৃন্দাবন<s n="np"/></l><r>Kanak<b/>Vrindavan<s n="np"/></r></p></e>
 	<e><p><l>চাম<b/>চান্দ<b/>দুনজ<s n="np"/></l><r>Sam<b/>Sand<b/>Dunes<s n="np"/></r></p></e>
 
@@ -228,6 +227,7 @@
   <!-- others -->
       <e><p><l>যদি<s n="ot"/></l><r>if<s n="ot"/></r></p></e>  
       <e><p><l>বাহিৰে<s n="ot"/></l><r>forby<s n="ot"/></r></p></e>
+      <e><p><l>হৈছে<s n="ot"/></l><r>is<s n="ot"/></r></p></e>
       <e><p><l>ভৰি<b/>থকা<s n="ot"/></l><r>filled<b/>with<s n="ot"/></r></p></e>
 
   <!-- आ -->
@@ -266,6 +266,7 @@
 
   <!-- verbs -->
       <e><p><l>আহ<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+      <e><p><l>আছিল<s n="vblex"/></l><r>was<s n="vblex"/></r></p></e>
       <e><p><l>নকৰিবি<s n="vblex"/></l><r>do<b/>not<s n="vblex"/></r></p></e>
 
   <!-- इ -->
@@ -915,7 +916,7 @@
       <e><p><l>আগতে<s n="adj"/></l><r>before<s n="adj"/></r></p></e>
       <e><p><l>প্ৰথমতে<s n="ot"/></l><r>first<s n="ot"/></r></p></e>
       <e><p><l>সেৱা<s n="ot"/></l><r>services<s n="ot"/></r></p></e>
-      <e><p><l>ব্যৱস্থা<s n="ot"/></l><r>available<s n="ot"/></r></p></e>
+      <e><p><l>ব্যৱস্থা<b/>আছে<s n="ot"/></l><r>are<b/>available<s n="ot"/></r></p></e>
 
   <!-- फ -->
   <!-- nouns -->
