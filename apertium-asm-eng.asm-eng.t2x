@@ -92,6 +92,41 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: SN-NOM SN-NOM">
+      <pattern>
+        <pattern-item n="SN-NOM"/>
+        <pattern-item n="SN-NOM"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <lit v="cop"/>
+            <lit-tag v="COP.p3"/>
+            <clip pos="1" part="a_nbr"/>
+            <lit v="{^be"/>
+            <lit-tag v="vbser.pres.p3"/>
+            <clip pos="1" part="a_nbr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: SN-NOM SN-OBL GEN SN-NOM">
       <pattern>
         <pattern-item n="SN-NOM"/>
