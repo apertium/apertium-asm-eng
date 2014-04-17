@@ -115,7 +115,6 @@
             <lit v="$}"/>
           </chunk>
           <b/>
-          <b pos="2"/>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
