@@ -14,6 +14,7 @@
       <sdef n="pl"/>    <!-- plural -->
       <sdef n="sent"/>    <!-- plural -->
       <sdef n="ma"/>    <!-- male -->
+      <sdef n="sint"/>    <!-- synthetic -->
       <sdef n="fe"/>    <!-- female -->
       <sdef n="det"/>    <!-- female -->
       <sdef n="ind"/>    <!-- female -->
@@ -953,8 +954,8 @@
       <e><p><l>একেবাৰে<s n="adj"/></l><r>totally<s n="adj"/></r></p></e>
       <e><p><l>বিশ<s n="adj"/></l><r>twenty<s n="adj"/></r></p></e>
       <e><p><l>বত্ৰিশ<s n="adj"/></l><r>thirty-two<s n="adj"/></r></p></e>
-      <e><p><l>বিশাল<s n="adj"/></l><r>vast<s n="adj"/></r></p></e>
-      <e><p><l>বৃহৎ<s n="adj"/></l><r>vast<s n="adj"/></r></p></e>
+      <e><p><l>বিশাল<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>বৃহৎ<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
 
   <!-- verbs -->
       <e><p><l>বাজ<s n="vblex"/></l><r>बज<s n="vblex"/></r></p></e>
