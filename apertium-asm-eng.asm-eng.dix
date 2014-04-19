@@ -1065,7 +1065,7 @@
   <!-- व -->
   <!-- nouns -->
       <e><p><l>ব্যৱসায়<s n="n"/></l><r>business<s n="n"/></r></p></e>
-      <e><p><l>ব্যৱহাৰ<s n="n"/></l><r>behavior<s n="n"/></r></p></e>
+      <e><p><l>ব্যৱহাৰ<s n="n"/></l><r>behaviour<s n="n"/></r></p></e>
       <e><p><l>বিশ্বাস<s n="n"/></l><r>believe<s n="n"/></r></p></e>
       <e><p><l>বিদ্যালয়<s n="n"/></l><r>school<s n="n"/></r></p></e>
 
@@ -1111,9 +1111,11 @@
       <e><p><l>শূন্য<s n="adj"/></l><r>blank<s n="adj"/></r></p></e>
 
   <!-- others -->
+<!--
       <e><p><l>বোধহয়<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
       <e><p><l>হয়তো<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
       <e><p><l>কদাচিৎ<s n="ot"/></l><r>शायद<s n="ot"/></r></p></e>
+-->
       <e><p><l>শ্ৰীমান<s n="ot"/></l><r>mr<s n="ot"/></r></p></e>
       <e><p><l>শ্ৰীযুত<s n="ot"/></l><r>mr<s n="ot"/></r></p></e>
       <e><p><l>শ্ৰীমতী<s n="ot"/></l><r>miss<s n="ot"/></r></p></e>
