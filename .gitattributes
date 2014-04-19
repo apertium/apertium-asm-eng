@@ -10,6 +10,11 @@
 /apertium-asm-eng.asm-eng.t1x -text
 /apertium-asm-eng.asm-eng.t2x -text
 /apertium-asm-eng.asm-eng.t3x -text
+/apertium-asm-eng.eng-asm.lrx -text
+/apertium-asm-eng.eng-asm.rlx -text
+/apertium-asm-eng.eng-asm.t1x -text
+/apertium-asm-eng.eng-asm.t2x -text
+/apertium-asm-eng.eng-asm.t3x -text
 /apertium-asm-eng.eng.dix -text
 /apertium-asm-eng.post-eng.dix -text
 /autogen.sh -text
