@@ -63,12 +63,14 @@
 
 
   <!-- enclitics -->
+<!--
       <e><p><l>টো<s n="en"/></l><r>वह<s n="en"/></r></p></e>
       <e><p><l>পাহ<s n="en"/></l><r>वह<s n="en"/></r></p></e>
       <e><p><l>খন<s n="en"/></l><r>वह<s n="en"/></r></p></e>
       <e><p><l>জন<s n="en"/></l><r>वह<s n="en"/></r></p></e>
       <e><p><l>জনী<s n="en"/></l><r>वह<s n="en"/></r></p></e>
       <e><p><l>গৰাকী<s n="en"/></l><r>वह<s n="en"/></r></p></e>
+-->
 
   <!--proper nouns -->
       <e><p><l>অঞ্জন<s n="np"/></l><r>Anjan<s n="np"/></r></p></e>
@@ -162,7 +164,7 @@
       <e><p><l>অমঙ্গল<s n="n"/></l><r>hoodoo<s n="n"/></r></p></e>
       <e><p><l>অপহৰণ<s n="n"/></l><r>abduction<s n="n"/></r></p></e>
       <e><p><l>অপেশ্বৰী<s n="n"/></l><r>nymph<s n="n"/></r></p></e>
-      <e><p><l>উৰা<b/>বাতৰি<s n="n"/></l><r>rumor<s n="n"/></r></p></e>
+      <e><p><l>উৰা<b/>বাতৰি<s n="n"/></l><r>rumour<s n="n"/></r></p></e>
       <e><p><l>বিষয়া<s n="n"/></l><r>officer<s n="n"/></r></p></e>
       <e><p><l>অভিনন্দন<s n="n"/></l><r>greetings<s n="n"/></r></p></e>
       <e><p><l>মধুৰিয়াম<s n="n"/></l><r>guava<s n="n"/></r></p></e>
@@ -246,8 +248,8 @@
       <e><p><l>আজ্ঞা<s n="n"/></l><r>permision<s n="n"/></r></p></e>
       <e><p><l>আত্মহত্যা<s n="n"/></l><r>suicide<s n="n"/></r></p></e>
       <e><p><l>স্বভাৱ<s n="n"/></l><r>habit<s n="n"/></r></p></e>
-      <e><p><l>আদৰ<s n="n"/></l><r>honor<s n="n"/></r></p></e>
-      <e><p><l>আয়োজন<s n="n"/></l><r>organizing<s n="n"/></r></p></e>
+      <e><p><l>আদৰ<s n="n"/></l><r>honour<s n="n"/></r></p></e>
+      <e><p><l>আয়োজন<s n="n"/></l><r>organising<s n="n"/></r></p></e>
       <e><p><l>আদেশ<s n="n"/></l><r>order<s n="n"/></r></p></e>
       <e><p><l>পৰিভ্ৰমণকাৰী<s n="n"/></l><r>tourists<s n="n"/></r></p></e>
 
@@ -296,7 +298,7 @@
       <e><p><l>এটা-দুটা<s n="adj"/></l><r>one-two<s n="adj"/></r></p></e>
       <e><p><l>একত্ৰিশ<s n="adj"/></l><r>thirty<b/>one<s n="adj"/></r></p></e>
       <e><p><l>ইমান<s n="adj"/></l><r>much<s n="adj"/></r></p></e>
-      <e><p><l>ইফালে-সিফালে<s n="adj"/></l><r>इर्द-गिर्द<s n="adj"/></r></p></e>
+      <!--<e><p><l>ইফালে-সিফালে<s n="adj"/></l><r>इर्द-गिर्द<s n="adj"/></r></p></e>-->
 
   <!-- others -->
       <e><p><l>এইফালে<s n="ot"/></l><r>here<s n="ot"/></r></p></e>
@@ -312,7 +314,7 @@
 
   <!-- adjectives -->
       <e><p><l>বিশ্বাসনীয়<s n="adj"/></l><r>straightforward<s n="adj"/></r></p></e>
-      <e><p><l>খ্ৰীষ্টিয়ান<s n="adj"/></l><r>christian<s n="adj"/></r></p></e>
+      <e><p><l>খ্ৰীষ্টিয়ান<s n="adj"/></l><r>Christian<s n="adj"/></r></p></e>
 
   <!-- उ -->
   <!-- nouns -->
@@ -361,7 +363,7 @@
       <e><p><l>এগৰাকী<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
       <e><p><l>এজনী<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
       <e><p><l>এখন<s n="adj"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>  
-      <e><p><l>এজন<s n="adj"/></l><r><s n="adj"/></r></p></e>
+      <!--<e><p><l>এজন<s n="adj"/></l><r><s n="adj"/></r></p></e>-->
 
   <!-- ऐ -->
   <!-- adjectives -->
@@ -654,7 +656,7 @@
 
   <!-- verbs -->
       <e><p><l>সাৰ<b/>পা<s n="vblex"/></l><r>wake<b/>up<s n="vblex"/></r></p></e>
-      <e><p><l>জিয়া<s n="vblex"/></l><r><s n="vblex"/></r></p></e>
+      <!--<e><p><l>জিয়া<s n="vblex"/></l><r><s n="vblex"/></r></p></e>-->
 
   <!-- adjectives -->
       <e><p><l>নিশ্চয়<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
@@ -680,7 +682,7 @@
   <!-- nouns -->
       <e><p><l>পতাকা<s n="n"/></l><r>flag<s n="n"/></r></p></e>
       <e><p><l>কাজিয়া<s n="n"/></l><r>fight<s n="n"/></r></p></e>
-      <e><p><l>হ্ৰদ<s n="n"/></l><r><s n="n"/></r></p></e>
+      <!--<e><p><l>হ্ৰদ<s n="n"/></l><r><s n="n"/></r></p></e>-->
       <e><p><l>মিছা<s n="n"/></l><r>lie<s n="n"/></r></p></e>
 
   <!-- verbs -->
@@ -738,7 +740,7 @@
       <e><p><l>চিত্ৰ<s n="n"/></l><r>picture<s n="n"/></r></p></e>
       <e><p><l>ছবি<s n="n"/></l><r>picture<s n="n"/></r></p></e>
       <e><p><l>তাৰিখ<s n="n"/></l><r>date<s n="n"/></r></p></e>
-      <e><p><l>তিথি<s n="n"/></l><r><s n="n"/></r></p></e>
+      <!--<e><p><l>তিথি<s n="n"/></l><r><s n="n"/></r></p></e>-->
       <e><p><l>প্ৰশংসা<s n="n"/></l><r>praise<s n="n"/></r></p></e>
       <e><p><l>পখিলা<s n="n"/></l><r>butterfly<s n="n"/></r></p></e>
       <e><p><l>ধূমুহা<s n="n"/></l><r>storm<s n="n"/></r></p></e>
@@ -748,7 +750,7 @@
 
   <!-- adjectives -->
       <e><p><l>স্বাস্থ্যৱান<s n="adj"/></l><r>healthy<s n="adj"/></r></p></e>
-      <e><p><l>শকত-আৱত<s n="adj"/></l><r><s n="adj"/></r></p></e>
+      <!--<e><p><l>শকত-আৱত<s n="adj"/></l><r><s n="adj"/></r></p></e>-->
       <e><p><l>তিনি<s n="adj"/></l><r>three<s n="adj"/></r></p></e>
       <e><p><l>তৃতীয়<s n="adj"/></l><r>third<s n="adj"/></r></p></e>
       <e><p><l>চোকা<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
