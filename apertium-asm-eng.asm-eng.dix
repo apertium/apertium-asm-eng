@@ -13,9 +13,9 @@
       <sdef n="sg"/>    <!-- singular -->
       <sdef n="pl"/>    <!-- plural -->
       <sdef n="sent"/>    <!-- plural -->
-      <sdef n="ma"/>    <!-- male -->
+      <sdef n="m"/>    <!-- male -->
       <sdef n="sint"/>    <!-- synthetic -->
-      <sdef n="fe"/>    <!-- female -->
+      <sdef n="f"/>    <!-- female -->
       <sdef n="det"/>    <!-- female -->
       <sdef n="ind"/>    <!-- female -->
       <sdef n="sub"/>    <!-- subject -->
@@ -223,7 +223,6 @@
       <e><p><l>অপমানিত<s n="adj"/></l><r>degraded<s n="adj"/></r></p></e>
       <e><p><l>এশ<b/>কোটি<s n="adj"/></l><r>hundred<b/>crores<s n="adj"/></r></p></e>
       <e><p><l>অৱস্থিত<s n="adj"/></l><r>situated<s n="adj"/></r></p></e>
-      <e><p><l>নিৰ্মান<s n="adj"/></l><r>built<s n="adj"/></r></p></e>
       <e><p><l>অধিক<s n="adj"/></l><r>more<s n="adj"/></r></p></e>
 
   <!-- others -->
@@ -270,6 +269,7 @@
       <e><p><l>আহ<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
       <e><p><l>আছিল<s n="vblex"/></l><r>was<s n="vblex"/></r></p></e>
       <e><p><l>নকৰিবি<s n="vblex"/></l><r>do<b/>not<s n="vblex"/></r></p></e>
+      <e><p><l>নিৰ্মান<s n="vblex"/></l><r>built<s n="vblex"/></r></p></e>
 
   <!-- इ -->
   <!-- nouns -->
