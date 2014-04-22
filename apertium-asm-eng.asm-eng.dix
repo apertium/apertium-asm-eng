@@ -35,6 +35,7 @@
     <sdef n="ot"/>      <!-- others -->
     <sdef n="num"/>     <!-- nums -->
     <sdef n="sep"/>       <!-- punctuation -->
+	<sdef n="post"/>        <!--Postposition-->
 
     </sdefs>
   
@@ -898,6 +899,8 @@
       <e><p><l>মৰম<s n="n"/><s n="m"/></l><r>love<s n="n"/></r></p></e>
       <e><p><l>স্নেহ<s n="n"/><s n="m"/></l><r>love<s n="n"/></r></p></e>
       <e><p><l>পিয়াহ<s n="n"/><s n="m"/></l><r>thirsty<s n="n"/></r></p></e>
+  <!-- Postposition -->
+      <e><p><l>পৰা<s n="post"/></l><r>from<s n="post"/></r></p></e>  
 
   <!-- adjectives -->
       <e><p><l>পকা<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>  
