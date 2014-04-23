@@ -10760,6 +10760,7 @@
     <e lm="Sydnee"><i>Sydnee</i><par n="Mary__np"/></e>
     <e lm="Sydney"><i>Sydney</i><par n="Mary__np"/></e>
     <e lm="Sydney"><i>Sydney</i><par n="Barcelona__np"/></e>
+    <e lm="Ganges"><i>Ganges</i><par n="Barcelona__np"/></e>
     <e lm="Jama Masjid"><i>Jama<b/>Masjid</i><par n="Barcelona__np"/></e>
     <e lm="Rajasthan"><i>Rajasthan</i><par n="Barcelona__np"/></e>
     <e lm="Jaipur"><i>Jaipur</i><par n="Barcelona__np"/></e>
@@ -18214,6 +18215,7 @@
     <e lm="pittance"><i>pittance</i><par n="house__n"/></e>
     <e lm="pity"><i>pity</i><par n="east__n"/></e>
     <e lm="place"><i>place</i><par n="house__n"/></e>
+    <e lm="picnic"><i>picnic</i><par n="house__n"/></e>
     <e lm="lace"><i>lace</i><par n="house__n"/></e>
     <e lm="placenta"><i>placenta</i><par n="larva__n"/></e>
     <e lm="placing"><i>placing</i><par n="house__n"/></e>

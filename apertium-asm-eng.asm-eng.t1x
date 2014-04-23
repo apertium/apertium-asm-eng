@@ -2,9 +2,21 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="n-attr">
+      <cat-item tags="n.*.*.nom.@→N"/>
+      <cat-item tags="np.top.*.nom.@→N"/>
+    </def-cat>
+    <def-cat n="n-erg">
+      <cat-item tags="n.*.*.erg"/>
+      <cat-item tags="np.top.*.erg"/>
+    </def-cat>
     <def-cat n="n-nom">
       <cat-item tags="n.*.*.nom"/>
       <cat-item tags="np.top.*.nom"/>
+    </def-cat>
+    <def-cat n="n-loc">
+      <cat-item tags="n.*.*.loc"/>
+      <cat-item tags="np.top.*.loc"/>
     </def-cat>
     <def-cat n="n-gen">
       <cat-item tags="n.*.*.gen"/>
@@ -13,6 +25,12 @@
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
+    </def-cat>
+    <def-cat n="kara-pii">
+      <cat-item lemma="কৰ" tags="vblex.pii.*"/>
+    </def-cat>
+    <def-cat n="stem">
+      <cat-item tags="vblex.stem"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -25,6 +43,10 @@
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
@@ -81,6 +103,113 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: n-loc">
+      <pattern>
+        <pattern-item n="n-loc"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.OBL"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST.LOC"/></tag>
+            </tags>
+            <lu>
+              <lit v="on"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: n-attr n-gen">
+      <pattern>
+        <pattern-item n="n-attr"/>
+        <pattern-item n="n-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.OBL"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST.GEN"/></tag>
+            </tags>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: n-erg">
+      <pattern>
+        <pattern-item n="n-erg"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.OBL"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST.ERG"/></tag>
+            </tags>
+            <lu>
+              <lit v="by"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: n-gen">
       <pattern>
@@ -263,6 +392,33 @@
               <clip pos="3" side="tl" part="a_nom"/>
               <clip pos="3" side="tl" part="a_nbr"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: stem kara-pii">
+      <pattern>
+        <pattern-item n="stem"/>
+        <pattern-item n="kara-pii"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="v-pp" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser.past.p3.sg"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pp"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
