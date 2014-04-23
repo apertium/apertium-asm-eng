@@ -29,6 +29,7 @@
     <def-cat n="n-gen">
       <cat-item tags="n.*.*.gen"/>
       <cat-item tags="np.top.*.gen"/>
+      <cat-item tags="np.ant.*.gen"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
@@ -66,6 +67,7 @@
       <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.ant.m"/>
+      <attr-item tags="np.ant.f"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
