@@ -65,6 +65,7 @@
       <attr-item tags="n"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.ant.m"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>

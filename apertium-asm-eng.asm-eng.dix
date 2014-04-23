@@ -19,6 +19,7 @@
       <sdef n="det"/>    <!-- female -->
       <sdef n="ind"/>    <!-- female -->
       <sdef n="sub"/>    <!-- subject -->
+      <sdef n="ant"/>    <!-- subject -->
       <sdef n="obj"/>    <!-- object -->
       <sdef n="top"/>    <!-- object -->
     <sdef n="np"/>       <!-- proper nouns -->
@@ -78,7 +79,7 @@
       <e><p><l>ব্ৰক্ষ্মপুত্ৰ<s n="np"/></l><r>Brahmaputra<s n="np"/></r></p></e>
       <e><p><l>লুইত<s n="np"/></l><r>Luit<s n="np"/></r></p></e>
       <e><p><l>অনুসূয়া<s n="np"/></l><r>Anusuya<s n="np"/></r></p></e>
-      <e><p><l>শ্বাহজাহান<s n="np"/></l><r>Shahjahan<s n="np"/></r></p></e>
+      <e><p><l>শ্বাহজাহান<s n="np"/><s n="ant"/></l><r>Shahjahan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>মমতাজ<b/>মহল<s n="np"/></l><r>Mumtaz<b/>Mahal<s n="np"/></r></p></e>
       <e><p><l>অক্টোবৰ<s n="np"/></l><r>October<s n="np"/></r></p></e>
       <e><p><l>আগষ্ট<s n="np"/></l><r>August<s n="np"/></r></p></e>

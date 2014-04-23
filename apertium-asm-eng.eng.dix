@@ -10764,6 +10764,10 @@
     <e lm="Jama Masjid"><i>Jama<b/>Masjid</i><par n="Barcelona__np"/></e>
     <e lm="Rajasthan"><i>Rajasthan</i><par n="Barcelona__np"/></e>
     <e lm="Jaipur"><i>Jaipur</i><par n="Barcelona__np"/></e>
+    <e lm="Delhi"><i>Delhi</i><par n="Barcelona__np"/></e>
+    <e lm="Assam"><i>Assam</i><par n="Barcelona__np"/></e>
+    <e lm="Haridwar"><i>Haridwar</i><par n="Barcelona__np"/></e>
+    <e lm="Taj Mahal"><i>Taj<b/>Mahal</i><par n="Barcelona__np"/></e>
     <e lm="Andhra Pradesh"><i>Andhra<b/>Pradesh</i><par n="Barcelona__np"/></e>
     <e lm="Udaipur"><i>Udaipur</i><par n="Barcelona__np"/></e>
     <e lm="Khajuraho"><i>Khajuraho</i><par n="Barcelona__np"/></e>
@@ -54897,6 +54901,7 @@
 	<e lm="Sheremetyevo"><i>Sheremetyevo</i><par n="Linux__np"/></e>
 	<e lm="Schiller"><i>Schiller</i><par n="Smith__np"/></e>
 	<e lm="Shirwan"><i>Shirwan</i><par n="Mark__np"/></e>
+	<e lm="Shahjahan"><i>Shahjahan</i><par n="Mark__np"/></e>
 	<e lm="Schiffer"><i>Schiffer</i><par n="Smith__np"/></e>
 	<e lm="Shkelqim"><i>Shkelqim</i><par n="Mark__np"/></e>
 	<e lm="Shkëndije"><i>Shkëndije</i><par n="Smith__np"/></e>
