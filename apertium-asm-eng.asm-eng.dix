@@ -89,6 +89,7 @@
       <e><p><l>অৰ্জুন<s n="np"/></l><r>Arjun<s n="np"/></r></p></e>
       <e><p><l>অসম<s n="np"/></l><r>Assam<s n="np"/></r></p></e>
       <e><p><l>ভাৰত<s n="np"/></l><r>India<s n="np"/></r></p></e>
+      <e><p><l>গঙ্গা<s n="np"/></l><r>ganga<s n="np"/></r></p></e>
       <e><p><l>শ্ৰীকৃষ্ণ<s n="np"/></l><r>Srikrishna<s n="np"/></r></p></e>
       <e><p><l>ইন্দ্ৰ<s n="np"/></l><r>Indra<s n="np"/></r></p></e>
       <e><p><l>কাশ্মীৰ<s n="np"/></l><r>Kashmir<s n="np"/></r></p></e>
@@ -531,7 +532,7 @@
   <!-- ग -->
   <!-- nouns -->
       <e><p><l>কুঁহিয়াৰ<s n="n"/><s n="m"/></l><r>cane<s n="n"/></r></p></e>
-      <e><p><l>গঙ্গা<s n="n"/><s n="m"/></l><r>ganga<s n="n"/></r></p></e>
+
       <e><p><l>গৰু<s n="n"/><s n="m"/></l><r>cow<s n="n"/></r></p></e>
       <e><p><l>গজল<s n="n"/><s n="m"/></l><r>gazal<s n="n"/></r></p></e>
       <e><p><l>ডিঙি<s n="n"/><s n="m"/></l><r>scuff<s n="n"/></r></p></e>
