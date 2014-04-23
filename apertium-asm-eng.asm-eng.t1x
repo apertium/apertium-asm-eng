@@ -114,6 +114,45 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: adj nom nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="n-nom"/>
+        <pattern-item n="n-nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j-n-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.NOM"/></tag>
+              <tag><clip pos="3" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: adj nom">
       <pattern>
         <pattern-item n="adj"/>
@@ -138,6 +177,53 @@
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="a_nbr"/>
               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: adj adj nom nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="n-nom"/>
+        <pattern-item n="n-nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j-j-n-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.NOM"/></tag>
+              <tag><clip pos="4" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="a_nbr"/>
+              <clip pos="4" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -182,6 +268,7 @@
         </out>
       </action>
     </rule>
+
 
 
     <rule comment="REGLA: SENT">
