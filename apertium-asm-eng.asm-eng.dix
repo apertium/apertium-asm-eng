@@ -270,7 +270,7 @@
       <e><p><l>আহ<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
       <e><p><l>আছিল<s n="vblex"/></l><r>was<s n="vblex"/></r></p></e>
       <e><p><l>নকৰিবি<s n="vblex"/></l><r>do<b/>not<s n="vblex"/></r></p></e>
-      <e><p><l>নিৰ্মান<s n="vblex"/></l><r>built<s n="vblex"/></r></p></e>
+      <e><p><l>নিৰ্মাণ<s n="vblex"/></l><r>was<b/>built<s n="vblex"/></r></p></e>
 
   <!-- इ -->
   <!-- nouns -->
@@ -966,6 +966,7 @@
       <e><p><l>বজা<s n="vblex"/></l><r>nothing<s n="vblex"/></r></p></e>
       <e><p><l>ক'<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
       <e><p><l>বহ<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
+      <e><p><l>শাসন<s n="vblex"/></l><r>rule<s n="vblex"/></r></p></e>
 
   <!-- others -->
       <e><p><l>পিছত<s n="ot"/></l><r>later<b/>on<s n="ot"/></r></p></e>
@@ -1135,7 +1136,7 @@
       <e><p><l>নিশাহ<s n="n"/><s n="m"/></l><r>exhalation<s n="n"/></r></p></e>
       <e><p><l>উশাহ-নিশাহ<s n="n"/><s n="m"/></l><r>breath<s n="n"/></r></p></e>
       <e><p><l>সাহস<s n="n"/><s n="m"/></l><r>brave<s n="n"/></r></p></e>
-      <e><p><l>শাসন<s n="n"/><s n="m"/></l><r>rule<s n="n"/></r></p></e>
+
 
   <!-- adjectives -->
       <e><p><l>সাধাৰণ<s n="adj"/></l><r>general<s n="adj"/></r></p></e>
