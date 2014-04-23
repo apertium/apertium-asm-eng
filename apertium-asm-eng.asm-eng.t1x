@@ -5,14 +5,22 @@
     <def-cat n="n-attr">
       <cat-item tags="n.*.*.nom.@→N"/>
       <cat-item tags="np.top.*.nom.@→N"/>
+      <cat-item tags="np.ant.*.nom.@→N"/>
     </def-cat>
     <def-cat n="n-erg">
       <cat-item tags="n.*.*.erg"/>
       <cat-item tags="np.top.*.erg"/>
+      <cat-item tags="np.ant.*.erg"/>
+    </def-cat>
+    <def-cat n="n-acc">
+      <cat-item tags="n.*.*.acc"/>
+      <cat-item tags="np.top.*.acc"/>
+      <cat-item tags="np.ant.*.acc"/>
     </def-cat>
     <def-cat n="n-nom">
       <cat-item tags="n.*.*.nom"/>
       <cat-item tags="np.top.*.nom"/>
+      <cat-item tags="np.ant.*.nom"/>
     </def-cat>
     <def-cat n="n-loc">
       <cat-item tags="n.*.*.loc"/>
@@ -56,6 +64,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -81,6 +90,29 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: n-acc">
+      <pattern>
+        <pattern-item n="n-acc"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ACC"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: n-nom">
       <pattern>
@@ -242,6 +274,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: adj">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: adj nom nom">
       <pattern>

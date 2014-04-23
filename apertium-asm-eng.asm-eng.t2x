@@ -6,6 +6,10 @@
       <cat-item tags="SN.NOM"/>
       <cat-item tags="SN.NOM.*"/>
     </def-cat>
+    <def-cat n="SN-ACC">
+      <cat-item tags="SN.ACC"/>
+      <cat-item tags="SN.ACC.*"/>
+    </def-cat>
     <def-cat n="SN-OBL">
       <cat-item tags="SN.OBL"/>
       <cat-item tags="SN.OBL.*"/>
@@ -15,6 +19,9 @@
     </def-cat>
     <def-cat n="ERG">
       <cat-item tags="POST.ERG"/>
+    </def-cat>
+    <def-cat n="SA">
+      <cat-item tags="SA"/>
     </def-cat>
     <def-cat n="GEN">
       <cat-item tags="POST.GEN"/>
@@ -216,6 +223,46 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: SN-NOM SN-ACC SA">
+      <pattern>
+        <pattern-item n="SN-NOM"/>
+        <pattern-item n="SN-ACC"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <lit v="cop"/>
+            <lit-tag v="COP.p3"/>
+            <clip pos="1" part="a_nbr"/>
+            <lit v="{^be"/>
+            <lit-tag v="vbser.pres.p3"/>
+            <clip pos="1" part="a_nbr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: SN-NOM SN-OBL GEN SN-NOM">
