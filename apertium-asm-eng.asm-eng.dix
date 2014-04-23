@@ -25,6 +25,7 @@
     <sdef n="np"/>       <!-- proper nouns -->
     <sdef n="en"/>       <!-- enclitics -->
         <sdef n="vblex"/>       <!-- verbs --> 
+    <sdef n="vbser"/>       <!-- verb --> 
       <sdef n="pres"/>    <!-- present -->
       <sdef n="past"/>    <!-- past -->
       <sdef n="fut"/>    <!-- future -->
@@ -270,7 +271,7 @@
 
   <!-- verbs -->
       <e><p><l>আহ<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
-      <e><p><l>আছিল<s n="vblex"/></l><r>was<s n="vblex"/></r></p></e>
+      <e><p><l>আছ<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
       <e><p><l>নকৰিবি<s n="vblex"/></l><r>do<b/>not<s n="vblex"/></r></p></e>
       <e><p><l>নিৰ্মাণ<s n="vblex"/></l><r>build<s n="vblex"/></r></p></e>
 
