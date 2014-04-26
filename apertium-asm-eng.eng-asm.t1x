@@ -3,16 +3,22 @@
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="n-nom">
-      <cat-item tags="n.*.*.nom"/>
-      <cat-item tags="np.top.*.nom"/>
-    </def-cat>
-    <def-cat n="n-gen">
-      <cat-item tags="n.*.*.gen"/>
-      <cat-item tags="np.top.*.gen"/>
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.*"/>
+    </def-cat>
+    <def-cat n="of">
+      <cat-item lemma="of" tags="pr"/>
+    </def-cat>
+    <def-cat n="vbser-pres">
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbser.pres.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -22,9 +28,15 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="GD"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
@@ -48,6 +60,7 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="gender"/>
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
@@ -65,49 +78,24 @@
         <pattern-item n="n-nom"/>
       </pattern>
       <action>
+        <let><var n="gender"/><lit-tag v="GD"/></let>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_gen"/><lit v=""/></equal></not></test>
+                      <let><var n="gender"/><clip pos="1" side="tl" part="a_gen"/></let></when></choose>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN.NOM"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="gender"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><lit-tag v="CD"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_gen"/>
               <clip pos="1" side="tl" part="a_nbr"/>
+              <lit-tag v="4"/>
               <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: n-gen">
-      <pattern>
-        <pattern-item n="n-gen"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN.OBL"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-          <b/>
-          <chunk name="post" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="POST.GEN"/></tag>
-            </tags>
-            <lu>
-              <lit v="of"/>
-              <lit-tag v="pr"/>
             </lu>
           </chunk>
         </out>
@@ -120,23 +108,29 @@
         <pattern-item n="n-nom"/>
       </pattern>
       <action>
+        <let><var n="gender"/><lit-tag v="GD"/></let>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_gen"/><lit v=""/></equal></not></test>
+                      <let><var n="gender"/><clip pos="2" side="tl" part="a_gen"/></let></when></choose>
         <out>
           <chunk name="j-n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN.NOM"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="gender"/></tag>
               <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><lit-tag v="CD"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adj"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
               <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="4"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -145,37 +139,42 @@
     </rule>
 
 
-    <rule comment="REGLA: adj adj nom">
+    <rule comment="REGLA: det adj nom">
       <pattern>
-        <pattern-item n="adj"/>
+        <pattern-item n="det"/>
         <pattern-item n="adj"/>
         <pattern-item n="n-nom"/>
       </pattern>
       <action>
+        <let><var n="gender"/><lit-tag v="GD"/></let>
+        <choose><when><test><not><equal><clip pos="3" side="tl" part="a_gen"/><lit v=""/></equal></not></test>
+                      <let><var n="gender"/><clip pos="3" side="tl" part="a_gen"/></let></when></choose>
         <out>
-          <chunk name="j-j-n" case="caseFirstWord">
+          <chunk name="d-j-n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN.NOM"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="gender"/></tag>
               <tag><clip pos="3" side="tl" part="a_nbr"/></tag>
+              <tag><lit-tag v="CD"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adj"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_adj"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
             <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="a_gen"/>
               <clip pos="3" side="tl" part="a_nbr"/>
+              <lit-tag v="4"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -183,6 +182,44 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: VBSER-PRES">
+      <pattern>
+        <pattern-item n="vbser-pres"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="COP.PRES"/></tag>
+            </tags>
+            <lu>
+              <lit v="cop"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: OF">
+      <pattern>
+        <pattern-item n="of"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="of" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST.GEN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SENT">
       <pattern>

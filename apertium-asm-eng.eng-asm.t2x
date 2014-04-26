@@ -2,13 +2,8 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
-    <def-cat n="SN-NOM">
-      <cat-item tags="SN.NOM"/>
-      <cat-item tags="SN.NOM.*"/>
-    </def-cat>
-    <def-cat n="SN-OBL">
-      <cat-item tags="SN.OBL"/>
-      <cat-item tags="SN.OBL.*"/>
+    <def-cat n="SN">
+      <cat-item tags="SN.*"/>
     </def-cat>
     <def-cat n="GEN">
       <cat-item tags="POST.GEN"/>
@@ -32,6 +27,7 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="CD"/>
     </def-attr>
   </section-def-attrs>
   <section-def-vars>
@@ -50,7 +46,7 @@
 
     <rule comment="REGLA: SN">
       <pattern>
-        <pattern-item n="SN-NOM"/>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
         <out>
@@ -63,13 +59,15 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: SN-OBL GEN SN-NOM">
+    <rule comment="REGLA: SN GEN SN">
       <pattern>
-        <pattern-item n="SN-OBL"/>
+        <pattern-item n="SN"/>
         <pattern-item n="GEN"/>
-        <pattern-item n="SN-NOM"/>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
+        <let><clip pos="3" part="a_cas"/><lit-tag v="gen"/></let>
+        <let><clip pos="1" part="a_cas"/><lit-tag v="nom"/></let>
         <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -78,12 +76,6 @@
           </chunk>
           <b pos="1"/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-          <b pos="2"/>
-          <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
@@ -91,87 +83,6 @@
         </out>
       </action>
     </rule>
-
-    <rule comment="REGLA: SN-NOM SN-NOM">
-      <pattern>
-        <pattern-item n="SN-NOM"/>
-        <pattern-item n="SN-NOM"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-          <b pos="1"/>
-          <chunk>
-            <lit v="cop"/>
-            <lit-tag v="COP.p3"/>
-            <clip pos="1" part="a_nbr"/>
-            <lit v="{^be"/>
-            <lit-tag v="vbser.pres.p3"/>
-            <clip pos="1" part="a_nbr"/>
-            <lit v="$}"/>
-          </chunk>
-          <b/>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-
-    <rule comment="REGLA: SN-NOM SN-OBL GEN SN-NOM">
-      <pattern>
-        <pattern-item n="SN-NOM"/>
-        <pattern-item n="SN-OBL"/>
-        <pattern-item n="GEN"/>
-        <pattern-item n="SN-NOM"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-          <b pos="1"/>
-          <chunk>
-            <lit v="cop"/>
-            <lit-tag v="COP.p3"/>
-            <clip pos="1" part="a_nbr"/>
-            <lit v="{^be"/>
-            <lit-tag v="vbser.pres.p3"/>
-            <clip pos="1" part="a_nbr"/>
-            <lit v="$}"/>
-          </chunk>
-          <b/>
-          <chunk>
-            <clip pos="4" part="lem"/>
-            <clip pos="4" part="tags"/>
-            <clip pos="4" part="chcontent"/>
-          </chunk>
-          <b pos="2"/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-          <b pos="3"/>
-          <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-  </section-rules>
+          </section-rules>
 </interchunk>
 

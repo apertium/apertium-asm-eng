@@ -399,9 +399,6 @@
       <program name="lt-proc $1">
         <file name="eng-asm.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="eng-asm.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
