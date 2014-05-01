@@ -22,3 +22,5 @@
 /modes.xml -text
 texts/test1.asm.txt -text svneol=unset#application/octet-stream
 texts/test1.eng.txt -text
+texts/test2.asm.txt -text svneol=unset#application/octet-stream
+texts/test2.eng.txt -text
