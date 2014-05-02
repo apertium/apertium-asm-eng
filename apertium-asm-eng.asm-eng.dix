@@ -134,6 +134,7 @@
       <e><p><l>কানাদা<s n="np"/></l><r>Canada<s n="np"/></r></p></e>
       <e><p><l>খাজুৰাহো<s n="np"/></l><r>Khajuraho<s n="np"/></r></p></e>
       <e><p><l>হায়দৰাবাদ<s n="np"/></l><r>Hyderabad<s n="np"/></r></p></e>
+      <e><p><l>বাংগালোৰ<s n="np"/></l><r>Bangalore<s n="np"/></r></p></e>
       <e><p><l>ইণ্ডিয়ান<b/>এয়াৰলাইন্স<s n="np"/></l><r>Indian<b/>Airlines<s n="np"/></r></p></e>
       <e><p><l>জেট<b/>এয়াৰওৱেজ<s n="np"/></l><r>Jet<b/>Airways<s n="np"/></r></p></e>
       <e><p><l>চাহাৰা<b/>এয়াৰলাইন্স<s n="np"/></l><r>Sahara<b/>Airlines<s n="np"/></r></p></e>
@@ -144,6 +145,21 @@
 	<e><p><l>শাসক<b/>সকলে<s n="np"/></l><r>rulers<s n="np"/></r></p></e>
 	<e><p><l>কনক<b/>বৃন্দাবন<s n="np"/></l><r>Kanak<b/>Vrindavan<s n="np"/></r></p></e>
 	<e><p><l>চাম<b/>চান্দ<b/>দুনজ<s n="np"/></l><r>Sam<b/>Sand<b/>Dunes<s n="np"/></r></p></e>
+      <e><p><l>যোধপুৰ<s n="np"/></l><r>Jodhpur<s n="np"/></r></p></e>
+	<e><p><l>ফ্ৰেন্স<b/>গুইয়ানা<s n="np"/></l><r>French<b/>Guiana<s n="np"/></r></p></e>
+      <e><p><l>হাৱা<b/>মহল<s n="np"/></l><r>Hawa<b/>Mahal<s n="np"/></r></p></e>
+      <e><p><l>মহাৰজা<b/>চাৱাই<b/>প্ৰতাপ<b/>সিঙ<s n="np"/></l><r>Maharaja<b/>Sawai<b/>Pratap<b/>Singh<s n="np"/></r></p></e>
+      <e><p><l>ভৰতপুৰ<s n="np"/></l><r>Bharatpur<s n="np"/></r></p></e>
+	<e><p><l>সংগ্ৰাহালয়<s n="np"/></l><r>museum<s n="np"/></r></p></e>
+	<e><p><l>বৃটিছ<s n="np"/></l><r>British<s n="np"/></r></p></e>
+	<e><p><l>ফকলেণ্ড<b/>দ্বীপ<s n="np"/></l><r>Falkland<b/>Islands<s n="np"/></r></p></e>
+	<e><p><l>দক্ষিণ<b/>ভাৰত<s n="np"/></l><r>South<b/>India<s n="np"/></r></p></e>
+	<e><p><l>অম্বৰ<b/>প্ৰসাদ<s n="np"/></l><r>Amber<b/>Palace<s n="np"/></r></p></e>
+	<e><p><l>ৰাহুল<s n="np"/></l><r>Rahul<s n="np"/></r></p></e>
+	<e><p><l>বুদ্ধ<s n="np"/></l><r>Buddha<s n="np"/></r></p></e>
+	<e><p><l>লুদুৰ্ভা<s n="np"/></l><r>Lodurva<s n="np"/></r></p></e>
+	<e><p><l>হিমাচল<b/>প্ৰদেশ<s n="np"/></l><r>Himachal<b/>Pradesh<s n="np"/></r></p></e>
+
 
   <!-- अ -->
   <!-- nouns -->
@@ -204,6 +220,8 @@
       <e><p><l>সপ্ততীৰ্থ<s n="n"/><s n="m"/></l><r>seven<b/>sacred<b/>cities<s n="n"/></r></p></e>  
       <e><p><l>বিমান<s n="n"/><s n="m"/></l><r>aircraft<s n="n"/></r></p></e>  
       <e><p><l>দুৰত্ব<s n="n"/><s n="m"/></l><r>distance<s n="n"/></r></p></e>  
+<e><p><l>স্থাপত্য <b/>বিদ্যা<s n="nt"/></l><r>architecture<s n="n"/></r></p></e>
+      <e><p><l>সংমিশ্ৰণ<s n="n"/><s n="m"/></l><r>synthesis<s n="n"/></r></p></e> 
 
 <!-- Nouns added @ Tue April 29 10:15:14 IST 2014 -->
     <e><p><l>ক্ষমতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ability<s n="n"/></r></p></e>
@@ -967,7 +985,6 @@
     <e><p><l>পথ<s n="n"/><s n="mf"/><s n="nn"/></l><r>route<s n="n"/></r></p></e>
     <e><p><l>শাৰী<s n="n"/><s n="nt"/><s n="nn"/></l><r>row<s n="n"/></r></p></e>
     <e><p><l>শাসক<s n="n"/><s n="mf"/><s n="hu"/></l><r>ruler<s n="n"/></r></p></e>
-    <e><p><l>নিয়ম<s n="n"/><s n="nt"/><s n="nn"/></l><r>rule<s n="n"/></r></p></e>
     <e><p><l>গুজৱ<s n="n"/><s n="nt"/><s n="nn"/></l><r>rumour<s n="n"/></r></p></e>
     <e><p><l>দৌৰ<s n="n"/><s n="nt"/><s n="nn"/></l><r>run<s n="n"/></r></p></e>
     <e><p><l>টকা<s n="n"/><s n="nt"/><s n="nn"/></l><r>rupee<s n="n"/></r></p></e>
@@ -1047,7 +1064,6 @@
     <e><p><l>তাৰকা<s n="n"/><s n="mf"/><s n="el"/><s n="def"/></l><r>star<s n="n"/></r></p></e>
     <e><p><l>আৰম্ভনি<s n="n"/><s n="nt"/><s n="nn"/></l><r>start<s n="n"/></r></p></e>
     <e><p><l>বক্তব্য<s n="n"/><s n="mf"/><s n="nn"/></l><r>statement<s n="n"/></r></p></e>
-    <e><p><l>ৰাজ্য<s n="n"/><s n="nt"/><s n="nn"/></l><r>state<s n="n"/></r></p></e>
     <e><p><l>আস্থান<s n="n"/><s n="nt"/><s n="nn"/></l><r>station<s n="n"/></r></p></e>
     <e><p><l>অৱস্থা<s n="n"/><s n="nt"/><s n="nn"/></l><r>status<s n="n"/></r></p></e>
     <e><p><l>থাক<s n="n"/><s n="mf"/><s n="nn"/></l><r>stay<s n="n"/></r></p></e>
@@ -1324,7 +1340,6 @@
     <e><p><l>আক্ৰমণ<s n="n"/><s n="mf"/><s n="hu"/></l><r>judge<s n="n"/></r></p></e>
     <e><p><l>ডাঙৰ<s n="n"/><s n="mf"/><s n="nn"/></l><r>big<s n="n"/></r></p></e>
     <e><p><l>ঠাণ্ডা<s n="n"/><s n="mf"/><s n="nn"/></l><r>cold<s n="n"/></r></p></e>
-    <e><p><l>মুগল<s n="n"/><s n="mf"/><s n="nn"/></l><r>Mughal<s n="n"/></r></p></e>
     <e><p><l>বৰদিন<s n="n"/><s n="mf"/><s n="nn"/></l><r>Christmas<s n="n"/></r></p></e>
     <e><p><l>স্টেডিয়াম<s n="n"/><s n="mf"/><s n="nn"/></l><r>stadium<s n="n"/></r></p></e>
     <e><p><l>কৌশল<s n="n"/><s n="mf"/><s n="nn"/></l><r>technique<s n="n"/></r></p></e>
@@ -1525,6 +1540,7 @@
     <e><p><l>আন্তঃগাঁথনি<s n="n"/><s n="mf"/><s n="nn"/></l><r>infrastructure<s n="n"/></r></p></e>
     <e><p><l>জৈৱ<s n="n"/><s n="mf"/><s n="nn"/></l><r>living<s n="n"/></r></p></e>
     <e><p><l>সংবাদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>news<s n="n"/></r></p></e>
+    <e><p><l>মছজিদ<s n="n"/><s n="mf"/><s n="nn"/></l><r>mosque<s n="n"/></r></p></e>
     
 
   <!-- adjectives -->
@@ -1560,6 +1576,17 @@
       <e><p><l>এশ<b/>কোটি<s n="adj"/></l><r>hundred<b/>crores<s n="adj"/></r></p></e>
       <e><p><l>অৱস্থিত<s n="adj"/></l><r>situated<s n="adj"/></r></p></e>
       <e><p><l>অধিক<s n="adj"/></l><r>more<s n="adj"/></r></p></e>
+      <e><p><l>আটাইতকৈ<b/>ডাঙৰ<s n="adj"/></l><r>largest<s n="adj"/></r></p></e>
+      <e><p><l>সৰ্ববৃহৎ<s n="adj"/></l><r>largest<s n="adj"/></r></p></e>
+ <e><p><l>স্পেনিছ<s n="adj"/></l><r>Spanish<s n="adj"/></r></p></e>
+      <e><p><l>মোগল<s n="adj"/></l><r>Mughal<s n="adj"/></r></p></e>
+      <e><p><l>ৰাজস্থানী<s n="adj"/></l><r>Rajasthani<s n="adj"/></r></p></e>
+      <e><p><l>এতিয়া<s n="adj"/></l><r>now<s n="adj"/></r></p></e>
+      <e><p><l>ৰূপান্তৰিত<s n="adj"/></l><r>converted<b/>into<s n="adj"/></r></p></e>
+      <e><p><l>উত্তম<s n="adj"/></l><r>best<s n="adj"/></r></p></e>
+      <e><p><l>পিছৰ<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
+      <e><p><l>পিছৰ<s n="adj"/></l><r>discovered<s n="adj"/></r></p></e>
+      <e><p><l>গ্ৰীষ্মকাল<s n="adj"/></l><r>summer<s n="adj"/></r></p></e>
 
   <!-- others -->
       <e><p><l>যদি<s n="ot"/></l><r>if<s n="ot"/></r></p></e>  
@@ -1586,6 +1613,14 @@
       <e><p><l>আয়োজন<s n="n"/><s n="m"/></l><r>organizing<s n="n"/></r></p></e>
       <e><p><l>আদেশ<s n="n"/><s n="m"/></l><r>order<s n="n"/></r></p></e>
       <e><p><l>পৰিভ্ৰমণকাৰী<s n="n"/><s n="f"/></l><r>tourist<s n="n"/></r></p></e>
+<e><p><l>দক্ষিণ<s n="n"/><s n="f"/></l><r>southern<s n="n"/></r></p></e>
+      <e><p><l>প্ৰান্ত<s n="n"/><s n="f"/></l><r>part<s n="n"/></r></p></e>
+      <e><p><l>আৰাৱলী<b/>পৰ্বত<s n="n"/><s n="f"/></l><r>Aravali<b/>range<s n="n"/></r></p></e>
+      <e><p><l>মাউন্ত<b/>আবু<s n="n"/><s n="f"/></l><r>Mount<b/>Abu<s n="n"/></r></p></e>
+      <e><p><l>ভ্ৰমণ <b/>স্থল<s n="n"/><s n="f"/></l><r>destination<s n="n"/></r></p></e>
+      <e><p><l>ঘোষণা<s n="n"/><s n="f"/></l><r>declare<s n="n"/></r></p></e>
+      <e><p><l>সাৰ্বভৌমত্ব<s n="n"/><s n="f"/></l><r>sovereignity<s n="n"/></r></p></e>
+
 
   <!-- adjectives -->
       <e><p><l>আৱশ্যক<s n="adj"/></l><r>necessary<s n="adj"/></r></p></e>
@@ -1795,6 +1830,7 @@
       <e><p><l>কিছু<s n="adj"/></l><r>few<s n="adj"/></r></p></e>
       <e><p><l>কিছুমান<s n="adj"/></l><r>somewhat<s n="adj"/></r></p></e>
       <e><p><l>কুশল<s n="adj"/></l><r>master<s n="adj"/></r></p></e>
+      <e><p><l>প্ৰিয়<s n="adj"/></l><r>favorite<s n="adj"/></r></p></e>
 
   <!-- verbs -->
       <e><p><l>কাট<s n="vblex"/></l><r>reap<s n="vblex"/></r></p></e>
@@ -2162,6 +2198,8 @@
       <e><p><l>বেলেগ<s n="adj"/></l><r>separate<s n="adj"/></r></p></e>
       <e><p><l>দেৰি<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
       <e><p><l>পলম<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
+<e><p><l>পলম<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
+      <e><p><l>পুৰণি<s n="adj"/></l><r>ancient<s n="adj"/></r></p></e>
 
   <!-- verbs -->
       <e><p><l>হেঁচা<b/>খা<s n="vblex"/></l><r>push<s n="vblex"/></r></p></e>
@@ -2197,6 +2235,7 @@
       <e><p><l>নেতা<s n="n"/><s n="m"/></l><r>minister<s n="n"/></r></p></e>
       <e><p><l>নিয়ম<s n="n"/><s n="m"/></l><r>rule<s n="n"/></r></p></e>
       <e><p><l>নগৰ<s n="n"/><s n="m"/></l><r>city<s n="n"/></r></p></e>
+      <e><p><l>নগৰী<s n="n"/><s n="m"/></l><r>city<s n="n"/></r></p></e>
 
   <!-- adjectives -->
       <e><p><l>নতুন<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
@@ -2298,6 +2337,7 @@
       <e><p><l>বত্ৰিশ<s n="adj"/></l><r>thirty-two<s n="adj"/></r></p></e>
       <e><p><l>বিশাল<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>বৃহৎ<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
+      <e><p><l>বৃহৎ<s n="adj"/></l><r>large<s n="adj"/><s n="sint"/></r></p></e>
 
   <!-- verbs -->
       <e><p><l>বাজ<s n="vblex"/></l><r>ringing<s n="vblex"/></r></p></e>

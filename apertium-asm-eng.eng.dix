@@ -10768,11 +10768,15 @@
     <e lm="Ujjain"><i>Ujjain</i><par n="Barcelona__np"/></e>
     <e lm="Delhi"><i>Delhi</i><par n="Barcelona__np"/></e>
     <e lm="Assam"><i>Assam</i><par n="Barcelona__np"/></e>
+    <e lm="Jodhpur"><i>Jodhpur</i><par n="Barcelona__np"/></e>
+    <e lm="Kanak Vrindavan"><i>Kanak<b/>Vrindavan</i><par n="Barcelona__np"/></e>
+    <e lm="Shimla"><i>Shimla</i><par n="Barcelona__np"/></e>
     <e lm="Haridwar"><i>Haridwar</i><par n="Barcelona__np"/></e>
     <e lm="Taj Mahal"><i>Taj<b/>Mahal</i><par n="Barcelona__np"/></e>
     <e lm="Andhra Pradesh"><i>Andhra<b/>Pradesh</i><par n="Barcelona__np"/></e>
     <e lm="Udaipur"><i>Udaipur</i><par n="Barcelona__np"/></e>
     <e lm="Khajuraho"><i>Khajuraho</i><par n="Barcelona__np"/></e>
+    <e lm="Guwahati"><i>Guwahati</i><par n="Barcelona__np"/></e>
     <e lm="Guwahati"><i>Guwahati</i><par n="Barcelona__np"/></e>
     <e lm="Agra"><i>Agra</i><par n="Barcelona__np"/></e>
     <e lm="Sydni"><i>Sydni</i><par n="Mary__np"/></e>
@@ -15210,7 +15214,7 @@
     <e lm="circumstance"><i>circumstance</i><par n="house__n"/></e>
     <e lm="stance"><i>stance</i><par n="house__n"/></e>
     <e lm="circus"><i>circus</i><par n="access__n"/></e>
-    <e lm="city"><i>cit</i><par n="bab/y__n"/></e>
+    <e lm="city"><i>city</i><par n="house__n"/></e>
     <e lm="citadel"><i>citadel</i><par n="house__n"/></e>
     <e lm="citizen"><i>citizen</i><par n="house__n"/></e>
     <e lm="citizenship"><i>citizenship</i><par n="house__n"/></e>
@@ -19957,9 +19961,53 @@
     <e lm="worth"><i>worth</i><par n="house__n"/></e>
     <e lm="worth"><i>worth</i><par n="expensive__adj"/></e>
     <e lm="closing"><i>closing</i><par n="expensive__adj"/></e>
-
-
     <e lm="engaged"><i>engaged</i><par n="expensive__adj"/></e>
+
+<!-- newly added -->
+    <e lm="largest"><i>largest</i><par n="expensive__adj"/></e>
+    <e lm="Spanish"><i>Spanish</i><par n="expensive__adj"/></e>
+    <e lm="large"><i>large</i><par n="expensive__adj"/></e>
+    <e lm="Mughal"><i>Mughal</i><par n="expensive__adj"/></e>
+    <e lm="Rajasthani"><i>Rajasthani</i><par n="expensive__adj"/></e>
+    <e lm="major"><i>major</i><par n="expensive__adj"/></e>
+    <e lm="past"><i>past</i><par n="expensive__adj"/></e>
+    <e lm="surrounded by"><i>surrounded<b/>by</i><par n="expensive__adj"/></e>
+    <e lm="converted into"><i>converted<b/>into</i><par n="expensive__adj"/></e>
+    <e lm="best"><i>best</i><par n="expensive__adj"/></e>
+    <e lm="favorite"><i>favorite</i><par n="expensive__adj"/></e>
+    <e lm="full"><i>full</i><par n="expensive__adj"/></e>
+    <e lm="built"><i>built</i><par n="house__n"/></e>
+    <e lm="Palace"><i>Palace</i><par n="house__n"/></e>
+    <e lm="synthesis"><i>synthesis</i><par n="house__n"/></e>
+    <e lm="architecture"><i>architecture</i><par n="house__n"/></e>
+    <e lm="Hawa Mahal"><i>Hawa<b/>Mahal</i><par n="Barcelona__np"/></e>
+    <e lm="Bharatpur"><i>Bharatpur</i><par n="Barcelona__np"/></e>
+    <e lm="museum"><i>museum</i><par n="house__n"/></e>
+    <e lm="Maharaja Sawai Pratap Singh"><i>Maharaja<b/>Sawai<b/>Pratap<b/>Singh</i><par n="Mark__np"/></e>
+    <e lm="royal glory"><i>royal<b/>glory</i><par n="house__n"/></e>
+    <e lm="southern"><i>southern</i><par n="house__n"/></e>   
+    <e lm="part"><i>part</i><par n="house__n"/></e>
+    <e lm="Aravali range"><i>Aravali<b/>range</i><par n="house__n"/></e>
+    <e lm="Mount Abu"><i>Mount<b/>Abu</i><par n="house__n"/></e>
+    <e lm="British"><i>British</i><par n="Mark__np"/></e>
+    <e lm="declare"><i>declare</i><par n="house__n"/></e>
+    <e lm="sovereignity"><i>sovereignity</i><par n="house__n"/></e>
+    <e lm="Falkland Islands"><i>Falkland<b/>Islands</i><par n="Barcelona__np"/></e>
+    <e lm="year"><i>year</i><par n="house__n"/></e>
+    <e lm="South India"><i>South<b/>India</i><par n="Barcelona__np"/></e>
+    <e lm="Amber Palace"><i>Amber<b/>Palace</i><par n="Barcelona__np"/></e>
+    <e lm="example"><i>example</i><par n="house__n"/></e>
+    <e lm="hindu"><i>hindu</i><par n="house__n"/></e>
+    <e lm="Rahul"><i>Rahul</i><par n="Mark__np"/></e>
+    <e lm="Buddha"><i>Buddha</i><par n="Mark__np"/></e>
+    <e lm="Lodurva"><i>Lodurva</i><par n="Barcelona__np"/></e>
+    <e lm="Jaisalmer"><i>Jaisalmer</i><par n="Barcelona__np"/></e>
+    <e lm="Himachal Pradesh"><i>Himachal<b/>Pradesh</i><par n="Barcelona__np"/></e>
+    <e lm="French Guiana"><i>French<b/>Guiana</i><par n="Barcelona__np"/></e>
+    <e lm="Bangalore"><i>Bangalore</i><par n="Barcelona__np"/></e>
+    <e lm="Hyderabad"><i>Hyderabad</i><par n="Barcelona__np"/></e>
+
+
     <e lm="then"><i>then</i><par n="expensive__adj"/></e>
     <e lm="advanced"><i>advanced</i><par n="expensive__adj"/></e>
     <e lm="credit"><i>credit</i><par n="expensive__adj"/></e>
