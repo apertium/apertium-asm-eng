@@ -39,7 +39,7 @@
     <sdef n="num"/>     <!-- nums -->
     <sdef n="sep"/>       <!-- punctuation -->
     <sdef n="post"/>        <!--Postposition-->
-    <sdef n="pr"/>        <!--Postposition-->
+    <sdef n="pr"/>        <!--Preposition-->
     <sdef n="nt"        c="Neuter"/>
     <sdef n="mf"        c="Masculine / feminine"/>
     <sdef n="aa"        c="Animate"/>
@@ -224,6 +224,8 @@
       <e><p><l>দুৰত্ব<s n="n"/><s n="m"/></l><r>distance<s n="n"/></r></p></e>  
 <e><p><l>স্থাপত্য <b/>বিদ্যা<s n="nt"/></l><r>architecture<s n="n"/></r></p></e>
       <e><p><l>সংমিশ্ৰণ<s n="n"/><s n="m"/></l><r>synthesis<s n="n"/></r></p></e> 
+      <e><p><l>গৌৰৱ<s n="n"/><s n="m"/></l><r>glory<s n="n"/></r></p></e> 
+      <e><p><l>উৎস<s n="n"/><s n="m"/></l><r>source<s n="n"/></r></p></e> 
 
 <!-- Nouns added @ Tue April 29 10:15:14 IST 2014 -->
     <e><p><l>ক্ষমতা<s n="n"/><s n="nt"/><s n="nn"/></l><r>ability<s n="n"/></r></p></e>
@@ -976,6 +978,7 @@
     <e><p><l>ভাত<s n="n"/><s n="mf"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
     <e r="LR"><p><l>ধান<s n="n"/><s n="mf"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
     <e><p><l>দাঙ্গা<s n="n"/><s n="nt"/><s n="nn"/></l><r>riot<s n="n"/></r></p></e>
+    <e><p><l><s n="n"/><s n="nt"/><s n="nn"/></l><r>pranjal<s n="n"/></r></p></e>
     <e><p><l>সংশয়<s n="n"/><s n="nt"/><s n="nn"/></l><r>risk<s n="n"/></r></p></e>
     <e><p><l>নদী<s n="n"/><s n="nt"/><s n="nn"/></l><r>river<s n="n"/></r></p></e>
     <e><p><l>ৰাস্তা<s n="n"/><s n="nt"/><s n="nn"/></l><r>road<s n="n"/></r></p></e>
@@ -1890,6 +1893,7 @@
 
   <!-- adjectives -->
       <e><p><l>আৱশ্যক<s n="adj"/></l><r>necessary<s n="adj"/></r></p></e>
+      <e><p><l>ঘোষণা কৰিছিল<s n="adj"/></l><r>declared<s n="adj"/></r></p></e>
       <e><p><l>প্ৰয়োজনীয়<s n="adj"/></l><r>essential<s n="adj"/></r></p></e>
       <e><p><l>অৱশেষত<s n="adj"/></l><r>atlast<s n="adj"/></r></p></e>
       <e><p><l>আগত<s n="adj"/></l><r>ahead<s n="adj"/></r></p></e>
@@ -2208,6 +2212,8 @@
   <!-- adjectives -->
       <e><p><l>ঘৰুৱা<s n="adj"/></l><r>homely<s n="adj"/></r></p></e>
       <e><p><l>আহত<s n="adj"/></l><r>injured<s n="adj"/></r></p></e>
+      <e><p><l>সম্পূৰ্ণ<s n="adj"/></l><r>full<s n="adj"/></r></p></e>
+      <e><p><l>ৰাজকীয়<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
 
   <!-- verbs -->
       <e><p><l>ঘট<s n="vblex"/></l><r>pot<s n="vblex"/></r></p></e>
@@ -2269,6 +2275,8 @@
       <e><p><l>লুকা<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
       <e><p><l>কাঢ়<s n="vblex"/></l><r>snatch<s n="vblex"/></r></p></e>
       <e><p><l>এৰ<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+      <e><p><l>চাৰিওফালে<s n="vblex"/></l><r>surround<s n="vblex"/></r></p></e>
+
 
   <!-- ज -->
   <!-- nouns -->
@@ -2545,6 +2553,9 @@
       <e><p><l>পৰা<s n="post"/></l><r>from<s n="post"/></r></p></e>  
       <e r="RL"><p><l></l><r>of<s n="pr"/></r></p></e>  
 
+<!-- Prepostion -->
+      <e><p><l>দ্বাৰা<s n="pr"/></l><r>by<s n="pr"/></r></p></e>  
+
   <!-- adjectives -->
       <e><p><l>পকা<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>  
       <e><p><l>পঞ্চাশ<s n="adj"/></l><r>fifty<s n="adj"/></r></p></e>  
@@ -2584,12 +2595,12 @@
       <e><p><l>দেউতা<s n="n"/><s n="m"/></l><r>father<s n="n"/></r></p></e>
       <e><p><l>বৰষুণ<s n="n"/><s n="m"/></l><r>rain<s n="n"/></r></p></e>
       <e><p><l>চুলি<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
-      <e><p><l>ল'ৰা-ছোৱালী<s n="n"/><s n="m"/></l><r>children<s n="n"/></r></p></e>
+      <e><p><l>ল'ৰা-ছোৱালী<s n="n"/><s n="nt"/></l><r>children<s n="n"/></r></p></e>
       <e><p><l>বিছনা<s n="n"/><s n="m"/></l><r>bed<s n="n"/></r></p></e>
       <e><p><l>বুঢ়া<s n="n"/><s n="m"/></l><r>oldman<s n="n"/></r></p></e>
-      <e><p><l>বুঢ়ী<s n="n"/><s n="m"/></l><r>oldlady<s n="n"/></r></p></e>
+      <e><p><l>বুঢ়ী<s n="n"/><s n="f"/></l><r>oldlady<s n="n"/></r></p></e>
       <e><p><l>পুত্ৰ<s n="n"/><s n="m"/></l><r>son<s n="n"/></r></p></e>
-      <e><p><l>পুত্ৰী<s n="n"/><s n="m"/></l><r>daughter<s n="n"/></r></p></e>
+      <e><p><l>পুত্ৰী<s n="n"/><s n="f"/></l><r>daughter<s n="n"/></r></p></e>
 
   <!-- adjectives -->
       <e><p><l>ডাঙৰ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
