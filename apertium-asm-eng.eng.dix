@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  developed by Pranjal Das, Kalyanee Kanchan Baruah
+  (Source Forge account: pranjal4456)
+  IST, Gauhati University, 
+  India
+-->
+
+
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzščćÅåøØðÐÞþÆæ</alphabet>
   <sdefs>
@@ -20658,7 +20667,7 @@
     <e lm="ACWA"><i>ACWA</i><par n="BBC__n"/></e>
     <e lm="ACWP"><i>ACWP</i><par n="BBC__n"/></e>
     <e lm="AD"><i>AD</i><par n="BBC__n"/></e>
-    <e lm="AD"><i>AD</i><par n="BBC__n"/></e>
+    <e lm="A.D."><i>A.D.</i><par n="BBC__n"/></e>
     <e lm="ADA"><i>ADA</i><par n="BBC__n"/></e>
     <e lm="ADA"><i>ADA</i><par n="BBC__n"/></e>
     <e lm="ADB"><i>ADB</i><par n="BBC__n"/></e>
