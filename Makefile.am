@@ -33,13 +33,13 @@ TARGETS_COMMON = \
 ## Transducers, disambiguation rules, transfer
 ###############################################################################
 
-$(PREFIX1).rlx.bin: $(AP_LIB1)/apertium-$(LANG1).$(LANG1).rlx 
+$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx 
 	cg-comp $^ $@
 
 $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx 
 	cg-comp $^ $@
 
-$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
+$(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim $^ $@
 
 .deps/$(LANG2).automorf.bin: $(BASENAME).$(LANG2).dix .deps/.d
