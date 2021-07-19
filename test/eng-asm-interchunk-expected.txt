@@ -1,0 +1,20 @@
+[1H7VA_kkBI-o#0] ^default<default>{^৮<num><ord>$}$
+[/1H7VA_kkBI-o]
+[7y0SfeN7lCuq#0] ^default<default>{^৫<num>$}$
+[/7y0SfeN7lCuq]
+[GVgeJ9587QD_#0] ^default<default>{^৯<num>$}$
+[/GVgeJ9587QD_]
+[H8CKgpJzuUTn#0] ^unknown<unknown>{^*jungler$}$
+[/H8CKgpJzuUTn]
+[U2yubKwVzbRl#0] ^unknown<unknown>{^*Decenue$}$
+[/U2yubKwVzbRl]
+[VS-7DBJbdZd6#0] ^unknown<unknown>{^*Taj$}$ ^unknown<unknown>{^*i$}$
+[/VS-7DBJbdZd6]
+[X-zrZv_IbzjZ#0] ^default<default>{^০<num>$}$
+[/X-zrZv_IbzjZ]
+[kMfMTPcJr-KE#0] ^n<SN><m><pl><CD>{^লাঠি<n><m><pl><4>$}$
+[/kMfMTPcJr-KE]
+[sjhlpqCAjLzu#0] ^unknown<unknown>{^*Mahavroo$}$
+[/sjhlpqCAjLzu]
+[whNlx-pbPJ2T#0] ^default<default>{^২<num><ord>$}$
+[/whNlx-pbPJ2T]

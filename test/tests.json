@@ -1,0 +1,10 @@
+{
+    "asm-eng": {
+        "input": "asm-eng-input.txt",
+        "mode": "asm-eng"
+    },
+    "eng-asm": {
+        "input": "eng-asm-input.txt",
+        "mode": "eng-asm"
+    }
+}
